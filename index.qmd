@@ -58,7 +58,8 @@ Our document has been presented and discussed with industry specialists on the f
 -   IAMIC [^index-7]: The *International Association of Music Information Centres* and several key members of the organisation.
 -   IAML: The *International Association of Music Libraries, Archives and Documentation Centers* and several national chapters and key members [^index-8].
 -   Polifonia: In October 2023 Polifonia invited a few stakeholders - Podiumkunst.net, the Open Music Observatory, Uni Firenze, IC Fonseca School, Joséphine Simonnot/PRISM, Maria Luisa Onida/D'Istruzione Superiore Leonardo Da Vinci, Carnegie Hall Archive, Municipality of Bologna - for a work session, which gave us a great opportunity to strengthen the metadata framework of our policy recommendations and infrastructure planning.
--   Slovak national stakeholders interested in cultural data[^index-9]
+-   Music Futures: the AHRC Creative Industries Cluster project MusicFutures in the United Kingdom.
+-   Slovak national stakeholders interested in cultural data.[^index-9]
 -   Wikimedia community and developers[^index-10].
 
 [^index-3]: Jun 5, 2024, Dataweek²⁴, Leuven, Belgium.
@@ -75,4 +76,4 @@ Our document has been presented and discussed with industry specialists on the f
 
 [^index-9]: Based on a memorandum of understanding with a broad range of public and private stakeholders, [@open_music_europe_sk_mou_2023] we developed a model for renewing statistical production for better cultural and music statistics [@antal_slovak-cult-stat-pilot].
 
-[^index-10]: Our work was presented in the Technology session of the Wikimedia CEE Meeting 2024 in Istanbul, and we have built relationships with various national chapters to help our technology development, data curation and dissemination efforts. [@antal_wikimedia_cee_2024]
+[^index-10]: Our work was presented in the Technology session of the Wikimedia CEE Meeting 2024 in Istanbul, and the Wikimedia CEE Meeting 2025 in Thessaloniki, and we have built relationships with various national chapters and the Wikidata and Abstract Wikipedia temas to help our technology development, data curation and dissemination efforts. [@antal_wikimedia_cee_2024]
