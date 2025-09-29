@@ -27,15 +27,13 @@ This is not an invitation to reinvent the wheel. We can read Beethoven’s early
 The invention of the computer, and later the internet, introduced new ways to document and transmit music. These innovations brought powerful efficiencies: identifiers like the ISRC and ISWC, digital distribution pipelines, and networked catalogues have enabled the global circulation of music at unprecedented scale. But they also created new fragmentation. Standards proliferated, identifiers failed to interconnect, and workflows designed for one purpose often broke down in another. What was intended as progress sometimes left behind a mess of overlapping, incompatible, or incomplete metadata — a mess that now needs to be cleared up.
 
 ::: callout-note
-This Green Paper is an early-stage policy document, prepared in line with **Open Policy Analysis** and the **Horizon Europe Data Management Guidelines**. It has been released early to allow consultation, incorporate stakeholder input, and provide a transparent development process. It has not been approved by the OpenMusE consortium or any stakeholders. Any comments are welcome for improvements in problem statements, omissions, recommendations. 
+This Green Paper is an early-stage policy document, prepared in line with **Open Policy Analysis** and the **Horizon Europe Data Management Guidelines**. It has been released early to allow consultation, incorporate stakeholder input, and provide a transparent development process. It has not been approved by the OpenMusE consortium or any stakeholders. Any comments are welcome for improvements in problem statements, omissions, recommendations.
 
 It will serve as the basis for:
 
 -   *A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem — Practical Steps Towards a Decentralised and Open European Music Observatory* \[current document, version 0.5\]\
 -   Deliverable D5.7 (Policy Brief) for the *Open Music Europe* consortium\
 -   A White Paper to be discussed at LineCheck 2025 and at the final policy forum of *Open Music Europe* and its system projects in Brussels, December 2025
-
-
 
 **Transparency note:** Following the principles of **Open Policy Analysis**, all related deliverables and technical documentation are publicly accessible to foster broad engagement and ensure a clear audit trail. Supporting documents for each chapter of this Green Paper are referenced in similar boxes. The current version (and future White Paper drafts) is available at <https://zenodo.org/records/17075796>. Standardised folders, figures, and bibliographies are available at <https://github.com/dataobservatory-eu/open-music-data-white-paper>.
 
@@ -52,29 +50,29 @@ It will serve as the basis for:
 
 Our document has been presented and discussed with industry specialists on the following forums:
 
--   Big Data Value Association, Gaia-X: Dataweek²⁴: Introducing a new European music dataspace[^dataweek]
+-   Big Data Value Association, Gaia-X: Dataweek²⁴: Introducing a new European music dataspace[^index-3]
 -   Echoes/ECCH:
--   Hungarian stakeholders interested in replication of the Slovak pilot versions [^index-3]
--   CISAC: Protecting Creators’ Rights in the AI Era: OpenMusE at the European Committee Meeting, Vilnius, 29-30 April [^cisac].
--  The Fair MusE - Prelude to a fairermusic industry Fair MusE project[^fairmuse]
--   IAMIC [^index-4]: The *International Association of Music Information Centres* and several key members of the organisation.
--   IAML: The *International Association of Music Libraries, Archives and Documentation Centers* and several national chapters and key members [^index-5].
--   Polifonia: In October 2023 Polifonia invited a few stakeholders - Podiumkunst.net, the Open Music Observatory, Uni Firenze, IC Fonseca School, Joséphine Simonnot/PRISM, Maria Luisa Onida/D'Istruzione Superiore Leonardo Da Vinci, Carnegie Hall Archive, Municipality of Bologna -  for a work session, which gave us a great opportunity to strengthen the metadata framework of our policy recommendations and infrastructure planning.
--   Slovak national stakeholders interested in cultural data[^index-6]
--   Wikimedia community and developers[^index-7].
+-   Hungarian stakeholders interested in replication of the Slovak pilot versions [^index-4]
+-   CISAC: Protecting Creators’ Rights in the AI Era: OpenMusE at the European Committee Meeting, Vilnius, 29-30 April [^index-5].
+-   The Fair MusE - Prelude to a fairermusic industry Fair MusE project[^index-6]
+-   IAMIC [^index-7]: The *International Association of Music Information Centres* and several key members of the organisation.
+-   IAML: The *International Association of Music Libraries, Archives and Documentation Centers* and several national chapters and key members [^index-8].
+-   Polifonia: In October 2023 Polifonia invited a few stakeholders - Podiumkunst.net, the Open Music Observatory, Uni Firenze, IC Fonseca School, Joséphine Simonnot/PRISM, Maria Luisa Onida/D'Istruzione Superiore Leonardo Da Vinci, Carnegie Hall Archive, Municipality of Bologna - for a work session, which gave us a great opportunity to strengthen the metadata framework of our policy recommendations and infrastructure planning.
+-   Slovak national stakeholders interested in cultural data[^index-9]
+-   Wikimedia community and developers[^index-10].
 
-[^index-3]: *Federation possibilities of the Slovak music data sharing space in Hungary* [@antal_2024_networkshop]
+[^index-3]: Jun 5, 2024, Dataweek²⁴, Leuven, Belgium.
 
-[^index-4]: We presented and discussed these ideas at the *International Association of Music Information Centres* on the General Assembly and Annual Conference 2024 on November 21, 2024, at Music Austria, Vienna. See the presentation and its poster format [@skcmdb_iamic_poster_2024].
+[^index-4]: *Federation possibilities of the Slovak music data sharing space in Hungary* [@antal_2024_networkshop]
 
-[^cisac]: [Protecting Creators’ Rights in the AI Era: OpenMusE at the European Committee Meeting](https://www.openmuse.eu/protecting-creators-rights-in-the-ai-era-openmuse-at-the-european-committee-meeting/), our presentation [@openmuse_cisac_ec_2025]
+[^index-5]: [Protecting Creators’ Rights in the AI Era: OpenMusE at the European Committee Meeting](https://www.openmuse.eu/protecting-creators-rights-in-the-ai-era-openmuse-at-the-european-committee-meeting/), our presentation [@openmuse_cisac_ec_2025]
 
-[^dataweek]: Jun 5, 2024, Dataweek²⁴, Leuven, Belgium.
+[^index-6]: We received useuful feedback for this Green Ppaer from the project and see further synergies in presenting our policy findings together. <https://fairmuse.eu/about/>
 
-[^fairmuse]: We received useuful feedback for this Green Ppaer from the project and see further synergies in presenting our policy findings together. <https://fairmuse.eu/about/>
+[^index-7]: We presented and discussed these ideas at the *International Association of Music Information Centres* on the General Assembly and Annual Conference 2024 on November 21, 2024, at Music Austria, Vienna. See the presentation and its poster format [@skcmdb_iamic_poster_2024].
 
-[^index-5]: We presented and discussed these ideas at the *International Association of Music Libraries, Archives and Documentation Centers* on the General Assembly and Annual Conference 7th and 9th of July 2025 in Salzburg, Austria. See the presentation and its poster format [@skcmdb_iaml_presentation_2025; @skcmdb_iaml_poster_2025].
+[^index-8]: We presented and discussed these ideas at the *International Association of Music Libraries, Archives and Documentation Centers* on the General Assembly and Annual Conference 7th and 9th of July 2025 in Salzburg, Austria. See the presentation and its poster format [@skcmdb_iaml_presentation_2025; @skcmdb_iaml_poster_2025].
 
-[^index-6]: Based on a memorandum of understanding with a broad range of public and private stakeholders, [@open_music_europe_sk_mou_2023] we developed a model for renewing statistical production for better cultural and music statistics [@antal_slovak-cult-stat-pilot].
+[^index-9]: Based on a memorandum of understanding with a broad range of public and private stakeholders, [@open_music_europe_sk_mou_2023] we developed a model for renewing statistical production for better cultural and music statistics [@antal_slovak-cult-stat-pilot].
 
-[^index-7]: Our work was presented in the Technology session of the Wikimedia CEE Meeting 2024 in Istanbul, and we have built relationships with various national chapters to help our technology development, data curation and dissemination efforts. [@antal_wikimedia_cee_2024]
+[^index-10]: Our work was presented in the Technology session of the Wikimedia CEE Meeting 2024 in Istanbul, and we have built relationships with various national chapters to help our technology development, data curation and dissemination efforts. [@antal_wikimedia_cee_2024]
