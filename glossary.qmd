@@ -27,7 +27,7 @@ Note: may take the form of a notation <symbols>, sound, image, object, movement 
 
 `original version`: The first established form of a work. [@iso_iswc_2022]
 
-`performer`: The performer of a musical work; in case of a sound recording, the performer whose performance is fixed in the recording. They may be entitled to neighbouring or sound recording copyrights. In some contexts, the `performer` is part of the broadly defined `creator` group.
+`performer`: The performer of a musical work; in case of a sound recording, the performer whose performance is fixed in the recording. They may be entitled to neighbouring rights in sound recordings. In some contexts, the `performer` is part of the broadly defined `creator` group.
 
 `producer`: The person or legal entity that produces the recorded fixation of the sound recording. They are entitled to neighbouring or sound recording copyrights. In some contexts, the `producer` is part of the broadly defined `creator` group.
 
@@ -226,7 +226,7 @@ a document, usually a volume, in which data are entered in a formal manner by a 
 
 `Europeana`: a digital platform provided by the European Union that aggregates digitized cultural heritage from institutions across Europe.
 
-`GESAC`: GESAC comprises together 32 European authors' societies in music, audiovisual, visual arts, literature and drama.
+`GESAC`: The European Grouping of Societies of Authors and Composers (GESAC) comprises of 32 European authors' societies in music, audiovisual, visual arts, literature and drama.
 
 `IAML`: International Association of Music Libraries, Archives and Documentation Centres
 
