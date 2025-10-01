@@ -121,8 +121,10 @@ The problem of scale makes such infrastructures essential. Large platforms and l
 ::: callout-note
 #### Finno-Ugric Data Sharing Space
 
-Our pilot with the **Finno-Ugric Data Sharing Space** illustrates subsidiarity in practice. By collaborating with regional NGOs and national archives, we curated and repaired datasets that would have remained invisible in a central repository. The project showed that decentralised actors are best placed to manage their own data, but that interoperability frameworks and shared observability layers can connect them effectively.
+Our pilot with the **Finno-Ugric Data Sharing Space** illustrates subsidiarity in practice. By collaborating with regional NGOs and national archives, we curated and repaired datasets that would have remained invisible in a central repository. The project showed that decentralised actors are best placed to manage their own data, but that interoperability frameworks and shared observability layers can connect them effectively [^finnougric].
 :::
+
+[^finnougric]: See [@finnougric_2025; @wikimuseum_2025].
 
 International comparison confirms this. In the United States, the **Mechanical Licensing Collective (MLC)** was created in 2021 to administer a blanket mechanical license for streaming and downloads. It inherited more than \$424 million in unmatched royalties and developed large-scale reconciliation systems to allocate them. By 2022, it had already distributed nearly \$700 million. The MLC shows what can be achieved when identifiers such as ISWC and ISRC are used systematically and backed by law. But it also highlights the limits of centralisation: creators must still claim and maintain their records, education gaps persist, and disputes between platforms and rights bodies continue.[^observatory-14]
 
