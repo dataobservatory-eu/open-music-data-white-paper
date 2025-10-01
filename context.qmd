@@ -41,6 +41,15 @@ From the outset, we draw on concrete pilots that illustrate both the problems an
 
 SKCMDb is our national pilot for federated metadata governance. It links together data from collective management (SOZA), national and city libraries, and archives, while ensuring that works can also be discovered in the digital environments where people actually listen: Spotify, YouTube, Apple Classical, and others. A further layer reconciles this metadata with the Slovak Statistical Office via a **Satellite Business Register**, so that cultural production is visible in official economic data.
 
+The **SKCMDb** is anchored in the **Memorandum of Understanding** signed between collective management organisations (SOZA, SLOVGRAM), cultural institutions (Hudobné centrum, Slovak National Library, Hudobný fond), and Reprex.
+
+This MoU formalises a federated governance model where:
+- **Attribution** (names of authors, performers, composers) is preserved as legally mandatory under copyright law.
+- **Privacy** is safeguarded by layered access: public data (names, works, identifiers) circulate broadly, while sensitive data (e.g., addresses, birth dates) remain restricted.
+- **Interoperability** is achieved by aligning with VIAF, ISNI, ISWC, ISRC, and Europeana.
+
+As such, the Memorandum provides the *legal and institutional foundation* for SKCMDb, turning a technical pilot into a national dataspace aligned with the EU Data Strategy.
+
 ::: infobox
 **The SKCMDb in action**
 
@@ -57,13 +66,21 @@ SKCMDb thus acts as a bridge between cultural memory institutions, rights manage
 
 SKCMDb provides a pragmatic response to fragmentation and duplication. It anchors the discussion of **preventive metadata strategies** in @sec-curation.
 
+This challenge is not unique to Slovakia. A recent Horizon Europe policy brief has highlighted how
+**inadequate metadata infrastructures** and **fragmented European initiatives** risk leaving the field
+open to dominance by extra-European players (for example, the US Mechanical Licensing Collective).[^d56]
+
+
+[^d56]: See *Policy Brief 1: Music Metadata Mainstreaming and EU Law* [@ivir_metadata_policy_2024] (Deliverable D5.6, OpenMusE project). That brief emphasises that without a European metadata infrastructure, EU repertoires may remain underexploited and culturally invisible, while foreign platforms consolidate hegemony. The present Green Paper extends on this line of argument by focusing on lifecycle-based interoperability and federated observatories as safeguards for European sovereignty.The Policy Brief 1 Annex references the Slovak Listen Local / SKCMDb project as a national pilot, underlining its relevance for EU-level policy design. The _Green Paper_ complements this by situating the MoU as a replicable governance framework for federated metadata spaces.
+
+
 ### Unlabel
 
 If SKCMDb focuses on building preventive infrastructures, **Unlabel** demonstrates how to repair the past. It is a collaborative pipeline connecting archives, libraries, collective rights organisations, and distributors to bring under-documented repertoires into the global digital supply chain.
 
 A striking example is the case of **Hilda Griva**, a bilingual Livonian–Estonian artist active in the interwar Finno-Ugric revival. Her recordings were rediscovered in the Latvian Archives of Folklore but lacked the metadata required for circulation. Through Unlabel, we translated and enriched her records, reconciled them with international authorities, and extended them with **DDEX catalogue transfer metadata**, enabling release via Spotify, YouTube, and Apple Music.
 
-::: infobox
+::: callout-note
 **Infobox: Unlabel and Hilda Griva**
 
 -   Metadata repair began with archival records in the Latvian Archives of Folklore.
