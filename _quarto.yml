@@ -6,13 +6,13 @@ execute:
   freeze: auto
   
 greenpaper:
-  version: "v0.8"
+  version: "v0.81"
 
 book:
   title: "A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem"
   subtitle: "Practical Steps Towards a Decentralised and Open European Music Observatory"
   downloads: [pdf, epub, docx] 
-  output-file: green-paper-v08
+  output-file: green-paper-v081
   author:
      - name: "Daniel Antal, CFA"
        orcid: 0000-0001-7513-6760
