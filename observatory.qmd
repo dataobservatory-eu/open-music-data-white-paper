@@ -54,7 +54,7 @@ The predecessor of the Open Music Europe project, CEEMID, was based on the lesso
 
 EU infrastructure initiatives have already moved beyond this logic. Since the 2000s, projects such as *Europeana*, the *European Open Science Cloud (EOSC)*, the *European Collaborative Cloud for Cultural Heritage (ECCCH)*, and *DARIAH* have all adopted *federated architectures*, linking distributed collections through shared standards and interoperability frameworks rather than consolidating them into one database. The *Audiovisual Observatory*, established in 1993 as a centralised reporting body, represents an earlier institutional logic that is now being phased out in favour of federation.
 
-The heritage sector, including music heritage, has consistently stressed the need for *open, federated models*. Libraries, archives, and museums use authority files and collaborative platforms (e.g. VIAF, *Wikidata*, Wikibase) to enable interoperability while preserving institutional autonomy. Commercial infrastructures do the same: the ISRC system, managed by IFPI, is inherently decentralised, while CISAC’s *CIS-Net* gives access to rights data without centralising ownership. Even the Mint initiative, launched by CISAC and Armonia Online, shows how shared infrastructure can deliver economies of scale for identifier allocation and metadata management while avoiding dependence on a single repository.[^observatory-3]
+The heritage sector, including music heritage, has consistently stressed the need for *open, federated models*. Libraries, archives, and museums use authority files and collaborative platforms (e.g. *VIAF*, *Wikidata*, *Wikibase*) to enable interoperability while preserving institutional autonomy. Commercial infrastructures do the same: the ISRC system, managed by IFPI, is inherently decentralised, while CISAC’s *CIS-Net* gives access to rights data without centralising ownership. Even the Mint initiative, launched by CISAC and Armonia Online, shows how shared infrastructure can deliver economies of scale for identifier allocation and metadata management while avoiding dependence on a single repository.[^observatory-3]
 
 [^observatory-3]: On heritage practices, see [@bianchini_beyond_2021, p210] and [@sardo_wikidata_2022, p297], which describe how VIAF, Wikidata, and Wikibase function as authority tools in libraries and archives. On identifiers, the *ISRC Handbook* [@isrc_handbook_2021, p5] explains the decentralised structure of the ISRC system, while CISAC’s *Mint Digital Services* [@cisac_mint_digital_services] illustrates how federated allocation works in practice. Together, these examples show how distributed stewardship and shared standards underpin global metadata infrastructures.
 
@@ -163,8 +163,8 @@ Without a way to share infrastructure, small actors remain stuck. They cannot af
 
 The Unlabel workflow was tested with Latvian archives and the distributor **ALOADED**, showing how public heritage metadata can be reconciled with private supply chains.
 
--   Archival recordings (Hilda Griva’s songs and Latvian/Latgalian midsummer songs) were located in the **Latvian Archives of Folklore**.\
--   Metadata was translated, enriched, and aligned with international authority files.\
+-   Archival recordings (Hilda Griva’s songs and Latvian/Latgalian midsummer songs) were located in the **Latvian Archives of Folklore**.
+-   Metadata was translated, enriched, and aligned with international authority files.
 -   ALOADED extended this metadata with **DDEX-compliant catalogue transfer** and ingested it into Spotify and other platforms.
 
 This demonstrated that reconciliation between **public infrastructures (archives)** and **private infrastructures (distributors and platforms)** is both technically and institutionally feasible, reconnecting suppressed or marginalised repertoires with contemporary audiences.
@@ -177,9 +177,10 @@ Conformance and observability rules in the *Open Music Observatory* should be de
 ### Workflow playbooks and provenance trails
 
 The Observatory should not only harmonise data *formats* but also document **workflow playbooks** that capture how metadata flows across the music lifecycle:\
-- from rights registration,\
-- to distribution and royalty attribution,\
-- to charting and visibility,\
+
+- from rights registration,
+- to distribution and royalty attribution,
+- to charting and visibility,
 - to long-term preservation.
 
 Each step should include **change-propagation rules**: if a correction is made in one register, it should ripple through to others. Provenance trails must survive system boundaries, using standards such as PROV-O to show *who did what, when, and under what authority*. This makes corrections auditable, supports cross-border comparability, and prevents “data death” when an asset leaves its original system.
@@ -192,7 +193,9 @@ A **data sharing space** provides the framework. Instead of forcing everyone int
 schema or legal agreement, it allows organisations to share and reuse data on an *“as-needed”* or
 *“as-permitted”* basis, while keeping full control of their own assets. For music — where rights,
 identifiers, and content are dispersed across hundreds of micro-actors and institutions — this
-model avoids both duplication and dependency. Crucially, it also avoids creating a new *single gatekeeper*: centralisation risks not only technical brittleness but also the emergence of a monopolistic intermediary able to close access or impose conditions on others.
+model avoids both duplication and dependency. Crucially, it also avoids creating a new *single gatekeeper*: centralisation risks not only technical brittleness but also the emergence of a monopolistic intermediary able to close access or impose conditions on others[^dataspace].
+
+[^dataspace]: Our definition here is an extended paraphrase of [@curry_dataspaces_2020] and reflects that  a "data [sharing] space is an ecosystem of exchange, processing, sharing and provision of data between trusted partners, for a fee or not" from [@dataspace_for_cci_2022, p16].
 
 Music also stress-tests the concept. Attribution rules are entangled with privacy law, identifiers
 are inconsistently applied, and most enterprises are too small to build compliance systems. If
@@ -240,20 +243,24 @@ Done well, this would rebalance the playing field: lowering costs for small acto
 
 For these proposals to succeed, they must be backed by legal clarity, lightweight standards, and public investment:
 
--   **Legal:** GDPR legal bases should be specified for each data flow (legitimate interest for attribution; research and cultural heritage exemptions for archives).\
--   **Standards:** Codes of conduct and minimum profiles should keep conformance achievable even for micro-enterprises.\
+-   **Legal:** GDPR legal bases should be specified for each data flow (legitimate interest for attribution; research and cultural heritage exemptions for archives).
+-   **Standards:** Codes of conduct and minimum profiles should keep conformance achievable even for micro-enterprises.
 -   **Funding:** ECCCH pilots, national ministries, and EU programmes should explicitly support metadata fitness and data-quality improvements as public-interest infrastructure.
 
 Embedding these levers ensures that interoperability does not remain voluntary but becomes a supported and sustainable practice across Europe.
 
 ### Alignment with the European Open Science Cloud
 
-**Bridge cultural clouds and market workflows via a federated Music Data Sharing Space.**\
-Position the Open Music Observatory as the *convening + conformance + observability* layer that connects ECCCH/Europeana and GLAM authority files with industry pipelines. Concretely:\
-1. **Capture once, reuse many** across creation→registration→distribution→preservation.\
-2. Require **minimal profiles** that smaller actors can actually implement.\
-3. Prioritise **identifier crosswalks** (ISRC↔ISWC↔ISNI↔VIAF/Wikidata) and change-propagation.\
-4. Use **Wikibase/Wikidata** as a low-friction backbone where appropriate.\
+**Bridge cultural clouds and market workflows via a federated Music Data Sharing Space.** Position the Open Music Observatory as the *convening + conformance + observability* layer that connects ECCCH/Europeana and GLAM authority files with industry pipelines. Concretely:
+
+1. **Capture once, reuse many** across creation→registration→distribution→preservation.
+
+2. Require **minimal profiles** that smaller actors can actually implement.
+
+3. Prioritise **identifier crosswalks** (ISRC↔ISWC↔ISNI↔VIAF/Wikidata) and change-propagation.
+
+4. Use **Wikibase/Wikidata** as a low-friction backbone where appropriate.
+
 5. Govern with EIF/FAIR-aligned rules, auditability, and PPP participation so rights-holders and memory institutions keep stewardship while interoperating.
 
 This reframes Europe’s investments from siloed repositories into a shared **data space** that lowers reconciliation costs, respects subsidiarity, and makes cultural metadata usable across public and commercial contexts — the practical foundation for any future European Music Observatory.
