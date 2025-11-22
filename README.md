@@ -2,6 +2,8 @@
 
 Change history
 
+0.84: Update of the _Open Music Observatory: Building a Shared Music Data Space_ chapter.
+
 ## Main files for the report
 
 chapters:
@@ -65,6 +67,8 @@ The bibliographic references are organised by themes, and they are stored in the
 -   `bib/mme.bib`: Music Moves Europe policy documents bibliography.
 
 -   `bib/musicindustry.bib`: Music industry typologies, conceptualisations.
+
+-   `bib/ontologies.bib`: bibliography of formal ontologies.
 
 -   `bib/opendata.bib`: bibliography on the EU open data policies.
 
