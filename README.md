@@ -2,7 +2,15 @@
 
 Change history
 
-0.80: Update (2025-10-01)
+[0.1.0](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.1.0)
+
+[0.3.0](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.3.0)
+
+[0.6.0](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.6.0)  
+
+[0.7.0](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.7.0)
+
+[0.8.0](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.8.0): Internally reviewed version for consultation (2025-10-01)
 
 0.84: Update of the _Open Music Observatory: Building a Shared Music Data Space_ chapter; bringing it into closer alignment with the technical documentation of the Open Music Observatory (available [here](https://downloads.reprex.nl/2025/open-music-observatory/index.html)
 
