@@ -2,7 +2,9 @@
 
 Change history
 
-0.84: Update of the _Open Music Observatory: Building a Shared Music Data Space_ chapter.
+0.80: Update (2025-10-01)
+
+0.84: Update of the _Open Music Observatory: Building a Shared Music Data Space_ chapter; bringing it into closer alignment with the technical documentation of the Open Music Observatory (available [here](https://downloads.reprex.nl/2025/open-music-observatory/index.html)
 
 ## Main files for the report
 
@@ -21,6 +23,12 @@ chapters:
 -   `conclusions.qmd` A placeholder for conclustions.
 
 -   `references.qmd`: A placeholder start printing the bibliographic references.
+
+-   `license.qmd`:  This document is licensed under the `CC BY 4.0 LEGAL CODE Attribution 4.0 International` license. You can use it in your work, but you must give credit to the creators in the following format. \
+
+**Please refer to the the document as**:\
+Antal, D. (2025). Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem: Practical Steps Towards a Decentralised and Open European Music Observatory (0.84). Open Music Observatory. <https://doi.org/10.5281/zenodo.17476959>
+
 
 ## Bibliographical references
 

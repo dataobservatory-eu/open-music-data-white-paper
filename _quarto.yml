@@ -9,6 +9,10 @@ greenpaper:
   version: "v0.84"
 
 book:
+  page-footer:
+    center: 
+      - text: "License"
+        href: license.qmd
   title: "A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem"
   subtitle: "Practical Steps Towards a Decentralised and Open European Music Observatory"
   downloads: [pdf, epub, docx] 
@@ -49,7 +53,7 @@ book:
 
 citation:
   container-title: "A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem"
-  doi: "10.5281/zenodo.17244314"
+  doi: "10.5281/zenodo.17476959"
   url: https://downloads.reprex.nl/2025/greenpaper/
 
 bibliography: 
