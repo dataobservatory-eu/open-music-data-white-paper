@@ -6,13 +6,17 @@ Change history
 
 [0.3.0](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.3.0)
 
+[0.5.0]((https://downloads.reprex.nl/2025/greenpaper/green-paper-v05.pdf))
+
 [0.6.0](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.6.0)  
 
 [0.7.0](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.7.0)
 
 [0.8.0](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.8.0): Internally reviewed version for consultation (2025-10-01)
 
-0.84: Update of the _Open Music Observatory: Building a Shared Music Data Space_ chapter; bringing it into closer alignment with the technical documentation of the Open Music Observatory (available [here](https://downloads.reprex.nl/2025/open-music-observatory/index.html)
+[0.8.1](https://downloads.reprex.nl/2025/greenpaper/green-paper-v081.pdf) Minor stylistic changes. 
+
+[0.8.4](): Update of the _Open Music Observatory: Building a Shared Music Data Space_ chapter; bringing it into closer alignment with the technical documentation of the Open Music Observatory (available [here](https://downloads.reprex.nl/2025/open-music-observatory/index.html).)
 
 ## Main files for the report
 
