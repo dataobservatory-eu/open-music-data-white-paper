@@ -57,6 +57,8 @@ Our document has been presented and discussed with industry specialists on the f
 -   Music Futures: the AHRC Creative Industries Cluster project MusicFutures in the United Kingdom.
 -   Slovak national stakeholders interested in cultural data.[^index-10]
 -   Wikimedia community and developers[^index-11].
+-  European music industry stakeholders on _LineCheck 2025_ [^index-13]
+
 
 [^index-4]: Jun 5, 2024, Dataweek²⁴, Leuven, Belgium.
 
@@ -72,8 +74,10 @@ Our document has been presented and discussed with industry specialists on the f
 
 [^index-10]: Based on a memorandum of understanding with a broad range of public and private stakeholders, [@open_music_europe_sk_mou_2023] we developed a model for renewing statistical production for better cultural and music statistics [@antal_slovak-cult-stat-pilot].
 
-[^index-11]: Our work was presented in the Technology session of the Wikimedia CEE Meeting 2024 in Istanbul, and the Wikimedia CEE Meeting 2025 in Thessaloniki, and we have built relationships with various national chapters and the Wikidata and Abstract Wikipedia temas to help our technology development, data curation and dissemination efforts. [@antal_wikimedia_cee_2024]
+[^index-11]: Our work was presented in the Technology session of the _Wikimedia CEE Meeting 2024_ in Istanbul, and the _Wikimedia CEE Meeting 2025 in Thessaloniki_, and the _Wikidata Conf 2025_ online; we have built relationships with various national chapters and the Wikidata and Abstract Wikipedia teams, and joined the Wikidata Ontology Cleanup Task Force and the Wikidata Mereology Task Force to help the coordiantion of our open source technology, data curation and dissemination efforts. [@antal_wikimedia_cee_2024; @wikimuseum_2025; @antal_wikidata_conf_2025].
 
 The CITF’s *First Project Report* (Ministry of Education and Culture, Finland, 2025) validates and extends the policy logic of OpenMusE’s Green Paper. While the CITF defines cross-sectoral requirements for trustworthy, machine-readable copyright infrastructures in the AI era, OpenMusE provides a concrete domain implementation within the European music ecosystem—demonstrating how interoperable identifiers, FAIR principles, and federated governance can function in practice[^index-12].
 
 [^index-12]: We are planning to give feedback to the [@citf_report_2025] on 19 November, and we asked the authors of the report to comment on our Green Paper, too.
+
+[^index-13]: _Open Access Music Dataspaces – Open Music Observatory_ presented on LineCheck 2025 [@miks_antal_2025]

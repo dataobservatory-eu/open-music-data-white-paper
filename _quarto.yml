@@ -6,7 +6,7 @@ execute:
   freeze: auto
   
 greenpaper:
-  version: "v0.83"
+  version: "v0.84"
 
 book:
   title: "A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem"
