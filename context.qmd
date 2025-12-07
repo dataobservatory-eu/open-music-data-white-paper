@@ -10,6 +10,10 @@ EU-level studies and policy frameworks have recognised these dynamics and increa
 
 [^context-2]: *European Parliament Resolution on cultural diversity and the conditions for authors in the European music streaming market* [@ep_resolution_music_streaming_2024]; it recognises streaming as the dominant global revenue source while leaving many authors with very low income (recitals F–H), stresses accurate metadata allocation at the time of creation using identifiers ISWC, ISRC, ISNI, IPI, and IPN (recital R, and 9.), highlights the lack of quality data to properly identify authors, performers, and rights holders (recital L), and warns that AI-generated tracks are flooding streaming platforms, aggravating discoverability and remuneration imbalances (recital O).
 
+A third major contribution to this landscape is the 2025 *CITF First Project Report*, coordinated by the National Libraries of Finland and Latvia. CITF identifies open identifiers, machine-readable rights metadata, and national libraries as core components of a future copyright infrastructure. It introduces a three-layer model (foundational, semantic, technical) and provides lifecycle analysis of protected works in the AI era. Its findings complement the *Music Ecosystem 2025* and *EMO feasibility* studies by foregrounding the role of cultural heritage institutions and the need for trustworthy, interoperable copyright registries[^context-3].
+
+[^context-3]: *Interoperable, trustworthy, and machine-readable copyright data in the AI era. Report of the CITF First Project* [@citf_2025]
+
 Our policy brief positions itself within this landscape. It aims to support and extend the Music Moves Europe framework by highlighting six crucial dimensions:
 
 1.  **Practical solutions**, grounded in dialogue between research and industry, and inspired by concrete experiences with open, federated data-sharing approaches.
@@ -25,11 +29,13 @@ By foregrounding these issues, the brief complements the calls of the *Music Eco
 
 Three structural pressures frame today’s metadata challenges:
 
-1.  **Extreme efficiency pressure.** Music is now monetised in micro-transactions worth a fraction of a cent. Each metadata mistake means lost royalties, while big-tech platforms enjoy economies of scale that self-releasing artists, small labels, and national CMOs cannot match.
+1.  **Extreme efficiency pressure.** Music is now monetised in micro-transactions worth a fraction of a cent. Each metadata mistake means lost royalties, while big-tech platforms enjoy economies of scale that self-releasing artists, small labels, and national CMOs cannot match. National libraries in many countries already maintain massive copyright-protected collections and identifier systems, which could be cross-utilised with CMOs.
 
-2.  **AI-driven disruption.** Agentic AI in streaming platforms has already displaced much of the traditional retail and promotion infrastructure. Generative AI risks flooding platforms with derivative works and further destabilising discoverability and revenues. Yet AI tools could also support documentation and reconciliation — if governance frameworks can enable them.
+2.  **AI-driven disruption.** Agentic AI in streaming platforms has already displaced much of the traditional retail and promotion infrastructure. Both pre-deployment and post-deployment of AI affect reproduction, distribution, and attribution rights. Generative AI risks flooding platforms with derivative works and further destabilising discoverability and revenues. Yet AI tools could also support documentation and reconciliation — if governance frameworks can enable them.
 
-3.  **Governance and incentive conflicts.** Identifiers such as ISWC, ISRC, ISNI, and IPN are essential for attribution and royalty distribution, but are maintained under costly, largely private regimes. Public policy increasingly demands more open metadata, but sustaining investment in these registers remains a challenge.
+3.  **Governance and incentive conflicts.** Identifiers such as ISWC, ISRC, ISNI, and IPN are essential for attribution and royalty distribution, but are maintained under costly, largely private regimes. Public policy increasingly demands more open metadata, but sustaining investment in these registers remains a challenge. Opt-out rights in AI training and the need for harmonised opt-out registries[^context-4], further complicate governance and incentive structures.
+
+[^context-4]: As emphasised by CITF on pp. 17, 23–24 [@citf_2025, p17, pp. 23-25].
 
 These pressures mean that improving metadata is not only a matter of technical interoperability. It is also a question of economic sustainability, legal coherence, and cultural policy.
 
@@ -39,9 +45,11 @@ From the outset, we draw on concrete pilots that illustrate both the problems an
 
 ### The Slovak Comprehensive Music Database (SKCMDb)
 
-SKCMDb is our national pilot for federated metadata governance. It links together data from collective management (SOZA), national and city libraries, and archives, while ensuring that works can also be discovered in the digital environments where people actually listen: Spotify, YouTube, Apple Classical, and others. A further layer reconciles this metadata with the Slovak Statistical Office via a **Satellite Business Register**, so that cultural production is visible in official economic data.
+SKCMDb is our national pilot for federated metadata governance. It links together data from collective management (SOZA), national and city libraries, and archives, while ensuring that works can also be discovered in the digital environments where people actually listen: Spotify, YouTube, Apple Classical, and others.
 
-The **SKCMDb** is anchored in the **Memorandum of Understanding** signed between collective management organisations (SOZA, SLOVGRAM), cultural institutions (Hudobné centrum, Slovak National Library, Hudobný fond), and Reprex.
+A further layer reconciles this metadata with the Slovak Statistical Office via a **Satellite Business Register**, so that cultural production is visible in official economic data.
+
+The **SKCMDb** is anchored in the **Memorandum of Understanding** signed between collective management organisations (SOZA, SLOVGRAM), cultural institutions (Hudobné centrum, Slovak National Library, Hudobný fond), and Reprex. SKCMDb’s strategy of combining copyright data (SOZA), neighbouring rights (SLOVGRAM), and national library authority control directly reflects CITF’s observation that national libraries must be integrated into copyright infrastructure, not treated as purely heritage institutions.
 
 This MoU formalises a federated governance model where:
 
@@ -52,6 +60,8 @@ This MoU formalises a federated governance model where:
 -   **Interoperability** is achieved by aligning with VIAF, ISNI, ISWC, ISRC, and Europeana.
 
 As such, the Memorandum provides the *legal and institutional foundation* for SKCMDb, turning a technical pilot into a national dataspace aligned with the EU Data Strategy.
+
+Our pilot also
 
 ::: infobox
 **The SKCMDb in action**
@@ -69,15 +79,17 @@ SKCMDb thus acts as a bridge between cultural memory institutions, rights manage
 
 SKCMDb provides a pragmatic response to fragmentation and duplication. It anchors the discussion of **preventive metadata strategies** in @sec-curation.
 
-This challenge is not unique to Slovakia. A recent Horizon Europe policy brief has highlighted how **inadequate metadata infrastructures** and **fragmented European initiatives** risk leaving the field open to dominance by extra-European players (for example, the US Mechanical Licensing Collective).[^context-3]
+This challenge is not unique to Slovakia. A recent Horizon Europe policy brief has highlighted how **inadequate metadata infrastructures** and **fragmented European initiatives** risk leaving the field open to dominance by extra-European players (for example, the US Mechanical Licensing Collective).[^context-5]
 
-[^context-3]: See *Policy Brief 1: Music Metadata Mainstreaming and EU Law* [@ivir_metadata_policy_2024] (Deliverable D5.6, OpenMusE project). That brief emphasises that without a European metadata infrastructure, EU repertoires may remain underexploited and culturally invisible, while foreign platforms consolidate hegemony. The present Green Paper extends on this line of argument by focusing on lifecycle-based interoperability and federated observatories as safeguards for European sovereignty.The Policy Brief 1 Annex references the Slovak Listen Local / SKCMDb project as a national pilot, underlining its relevance for EU-level policy design. The *Green Paper* complements this by situating the MoU as a replicable governance framework for federated metadata spaces.
+[^context-5]: See *Policy Brief 1: Music Metadata Mainstreaming and EU Law* [@ivir_metadata_policy_2024] (Deliverable D5.6, OpenMusE project). That brief emphasises that without a European metadata infrastructure, EU repertoires may remain underexploited and culturally invisible, while foreign platforms consolidate hegemony. The present Green Paper extends on this line of argument by focusing on lifecycle-based interoperability and federated observatories as safeguards for European sovereignty.The Policy Brief 1 Annex references the Slovak Listen Local / SKCMDb project as a national pilot, underlining its relevance for EU-level policy design. The *Green Paper* complements this by situating the MoU as a replicable governance framework for federated metadata spaces.
 
 ### Unlabel
 
 If SKCMDb focuses on building preventive infrastructures, **Unlabel** demonstrates how to repair the past. It is a collaborative pipeline connecting archives, libraries, collective rights organisations, and distributors to bring under-documented repertoires into the global digital supply chain.
 
 A striking example is the case of **Hilda Griva**, a bilingual Livonian–Estonian artist active in the interwar Finno-Ugric revival. Her recordings were rediscovered in the Latvian Archives of Folklore but lacked the metadata required for circulation. Through Unlabel, we translated and enriched her records, reconciled them with international authorities, and extended them with **DDEX catalogue transfer metadata**, enabling release via Spotify, YouTube, and Apple Music.
+
+Our multi-layer model (DDEX, DCTERMS, RiC patterns, and rights metadata) aligns with CITF’s three-layer structure: DCTERMS in the foundational layer, RiC and DDEX conceptual mappings in the semantic layer, and DDEX catalogue-transfer formats in the technical layer.
 
 ::: callout-note
 **Infobox: Unlabel and Hilda Griva**
@@ -102,6 +114,10 @@ Streaming platforms are genuine big-data companies. Alphabet’s YouTube, Apple,
 
 Music, then, is now sold in **extremely low-value transactions mediated by autonomous agents**. This reality enforces a very strong pressure on the entire ecosystem to improve data interoperability and metadata quality.
 
+As the CITF report emphasises, AI introduces legal lifecycle pressures: both the training and deployment of AI systems may trigger reproduction, distribution, adaptation, and communication-to-the-public rights. This amplifies the economic consequences of metadata fragmentation: missing or inconsistent identifiers now propagate across algorithmic pipelines as well as financial ones[^context-6].
+
+[^context-6]: See [@citf_2025, p31].
+
 By contrast, in most industries administrative overhead is modest:
 
 -   Retail/distribution: \~2–5% of net sales
@@ -111,9 +127,9 @@ By contrast, in most industries administrative overhead is modest:
 
 In “normal” industries, then, €50 of administrative cost is justified on €1000 of revenue. By comparison, in the recorded music industry, achieving that same 5% efficiency requires delivering faultlessly some 200,000 streaming transactions. This is a **very tall order** for a sector dominated by micro-enterprises and small independents without dedicated IT or metadata teams.
 
-The pressure for efficiency is not only present on the production side of the music business. In the **non-profit sector**, digitisation has profoundly transformed the workflows of archives, libraries, and heritage institutions as well. Streaming has reduced demand for physical collections, forcing libraries to reframe their role around digitisation, knowledge organisation, and community functions rather than lending CDs or scores. New spaces like creative studios and digital repositories are expected, but funding is limited, so efficiency is critical. At the same time, the vast amount of born-digital assets — and now the endless output of generative AI systems — creates a puzzle for archives that remains unsolved today.[^context-4]
+The pressure for efficiency is not only present on the production side of the music business. In the **non-profit sector**, digitisation has profoundly transformed the workflows of archives, libraries, and heritage institutions as well. Streaming has reduced demand for physical collections, forcing libraries to reframe their role around digitisation, knowledge organisation, and community functions rather than lending CDs or scores. New spaces like creative studios and digital repositories are expected, but funding is limited, so efficiency is critical. At the same time, the vast amount of born-digital assets — and now the endless output of generative AI systems — creates a puzzle for archives that remains unsolved today.[^context-7]
 
-[^context-4]: See for example the Katona József Library’s adaptive strategies [@virag_2024]. Archives, on the other hand, face a problem that instead of receiving records on paper, they are becoming gigantic data silos in the age of born-digital documents. They are being transformed into data through digitisation and born-digital records, face volumes too large for manual processing. This pressures traditional archival concepts such as provenance, original order, fixity, and authenticity [@colavizza_2022].
+[^context-7]: See for example the Katona József Library’s adaptive strategies [@virag_2024]. Archives, on the other hand, face a problem that instead of receiving records on paper, they are becoming gigantic data silos in the age of born-digital documents. They are being transformed into data through digitisation and born-digital records, face volumes too large for manual processing. This pressures traditional archival concepts such as provenance, original order, fixity, and authenticity [@colavizza_2022].
 
 ::: infobox
 **Metadata as provenance**
@@ -155,3 +171,11 @@ The challenges described above call for coordinated responses that combine techn
     Micro-enterprises, NGOs, and CMOs cannot build in-house AI capacity. Cooperative AI utilities — reconciliation-as-a-service, metadata repair pipelines, watchlists for duplicates — can be pooled under shared governance (@sec-ai).
 
 This integrated roadmap frames the more detailed analysis and recommendations in the chapters that follow.
+
+::: callout-note
+#### CITF {.unnumbered}
+
+[![You can download this report at <https://julkaisut.valtioneuvosto.fi/server/api/core/bitstreams/3fb3f9ed-e93a-48fb-92e8-93c61a999e48/content>](png/OKM_2025_23-frontpage_2x1.png){fig-align="center"}](https://julkaisut.valtioneuvosto.fi/server/api/core/bitstreams/3fb3f9ed-e93a-48fb-92e8-93c61a999e48/content)
+
+The CITF report defines a structured approach to future copyright infrastructures through three layers (foundational, semantic, technical). The solution pathways proposed in this Green Paper can be mapped onto these layers: identifier governance corresponds to the foundational layer; pragmatic ontology patterns map to the semantic layer; and federated pipelines align with the technical layer.
+:::

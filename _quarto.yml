@@ -6,7 +6,10 @@ execute:
   freeze: auto
   
 greenpaper:
-  version: "v0.84"
+  version: "0.9.1"
+  
+version: "0.9.1"
+DOI: "10.5281/zenodo.17767905"
 
 book:
   page-footer:
@@ -16,7 +19,7 @@ book:
   title: "A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem"
   subtitle: "Practical Steps Towards a Decentralised and Open European Music Observatory"
   downloads: [pdf, epub, docx] 
-  output-file: green-paper-v084
+  output-file: green-paper-v090
   author:
      - name: "Daniel Antal, CFA"
        orcid: 0000-0001-7513-6760
@@ -38,7 +41,7 @@ book:
      - name: "Mikš, Tomaš"
        role: "Internal Reviewer"
        orcid: 0009-0004-7686-4611
-  date: "2024-11-22"
+  date: "2024-11-30"
   repo-url: https://github.com/dataobservatory-eu/open-music-data-white-paper
   repo-actions: [edit]
   chapters:
