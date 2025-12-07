@@ -42,7 +42,7 @@ chapters:
 -   `license.qmd`:  This document is licensed under the `CC BY 4.0 LEGAL CODE Attribution 4.0 International` license. You can use it in your work, but you must give credit to the creators in the following format. \
 
 **Please refer to the the document as**:\
-Antal, D. (2025). Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem: Practical Steps Towards a Decentralised and Open European Music Observatory (0.84). Open Music Observatory. <https://doi.org/10.5281/zenodo.17476959>
+Antal, D. (2025). Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem: Practical Steps Towards a Decentralised and Open European Music Observatory (0.9.0). Open Music Observatory. <https://doi.org/10.5281/zenodo.17767905>
 
 
 ## Bibliographical references
