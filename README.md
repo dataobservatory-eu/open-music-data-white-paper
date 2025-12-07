@@ -18,9 +18,9 @@ Change history
 
 0.8.4: Update of the _Open Music Observatory: Building a Shared Music Data Space_ chapter; bringing it into closer alignment with the technical documentation of the Open Music Observatory (available [here](https://downloads.reprex.nl/2025/open-music-observatory/index.html).)
 
-0.9.0: Shared with the _Copyright Infrastructure Task Force_. [10.5281/zenodo.17767905](https://doi.org/10.5281/zenodo.17767905)
+[0.9.0]((https://doi.org/10.5281/zenodo.17767905)): Shared with the _Copyright Infrastructure Task Force_. [10.5281/zenodo.17767905](https://doi.org/10.5281/zenodo.17767905)
 
-0.9.1: Update with _Towards Critical Artificial Intelligence Literacies_
+[0.9.1](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.9.1): Update with _Towards Critical Artificial Intelligence Literacies_
 ## Main files for the report
 
 chapters:
