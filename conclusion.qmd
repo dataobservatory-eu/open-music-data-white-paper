@@ -2,6 +2,10 @@
 
 Europe’s music ecosystem is under pressure. Streaming pays in micro-royalties, metadata mistakes cost real money, and AI threatens to overwhelm platforms with untracked content. But solutions are within reach. This Green Paper sets out a path forward, built on three pillars: better metadata, shared data spaces, and AI that works for everyone. (See @sec-policy-context for the background and policy context.) These priorities align closely with the emerging framework proposed by CITF: trusted identifiers, lifecycle-aware provenance, and interoperable, federated rights metadata.
 
+The evidence presented in this Green Paper suggests that the primary challenge for European music data policy is no longer the absence of conceptual frameworks or technical standards, but the limited scaling and coordination of solutions that already exist and have been partially implemented. Future European action should therefore prioritise the consolidation, federation, and long-term governance of proven approaches, rather than the repeated creation of new pilot structures detached from policy and institutional contexts.
+
+In this respect, the [Open Music Observatory](https://openmusicobservatory.eu/) and related national implementations should be understood as components of an evolving policy infrastructure, capable of informing regulatory discussion, institutional coordination, and future standardisation efforts through documented practice rather than abstract design alone.
+
 The first step is to **fix metadata at the source**. Rights societies, platforms, labels, libraries, and archives all capture fragments of information about works and recordings. Today this is done in parallel, wasting effort and creating errors. Smarter pipelines, shared identifiers, and pragmatic exchange patterns can make documentation “capture once, reuse many.” This is not just a technical upgrade — it is the foundation for fair royalties, legal certainty, and cultural visibility. It also directly supports the CITF view that robust identifiers and transparent RMI are prerequisites for trustworthy AI and lawful reuse.
 
 See @sec-observatory for how shared infrastructures can make this possible.
@@ -12,7 +16,7 @@ See @sec-ai for how artificial intelligence can be used to strengthen, not weake
 
 The third step is to treat **AI as a shared utility**. Big platforms already use AI to document millions of tracks and to steer attention. Smaller players cannot compete unless Europe provides common tools: AI to reconcile identifiers, repair legacy datasets, enrich metadata in multiple languages, and help creators embed information “from birth.” If deployed in a federated way, AI reduces costs and unfreezes neglected repertoires — while respecting rights, attribution, and diversity.
 
-Taken together, these steps close the gap between the *right of reuse* granted by the Open Data Directive and the *means of reuse* that the music industry actually needs. They also bring Europe’s approach into alignment with the emerging international consensus: that cultural data infrastructures must be trustworthy, distributed, and provenance-rich in order to support both human creativity and responsible AI. 
+Taken together, these steps close the gap between the *right of reuse* granted by the Open Data Directive and the *means of reuse* that the music industry actually needs. They also bring Europe’s approach into alignment with the emerging international consensus: that cultural data infrastructures must be trustworthy, distributed, and provenance-rich in order to support both human creativity and responsible AI.
 
 Europe should therefore:
 
