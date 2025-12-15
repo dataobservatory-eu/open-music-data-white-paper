@@ -75,6 +75,8 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/grd.bib`: Global Repertoire Database.
 
+-   `bib/ISOdata.bib`: ISO standards related to (music) data.
+
 -   `bib/identifiers.bib`: Resources on identifiers, PIDs.
 
 -   `bib/IFPI.bib`: resources related to IFPI and the ISRC system.
