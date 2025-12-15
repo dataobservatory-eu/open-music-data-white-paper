@@ -8,20 +8,19 @@ Change history
 
 [0.5.0]((https://downloads.reprex.nl/2025/greenpaper/green-paper-v05.pdf))
 
-[0.6.0](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.6.0)  
+[0.6.0](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.6.0)
 
 [0.7.0](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.7.0)
 
 [0.8.0](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.8.0): Internally reviewed version for consultation (2025-10-01)
 
-[0.8.1](https://downloads.reprex.nl/2025/greenpaper/green-paper-v081.pdf) Minor stylistic changes. 
+[0.8.1](https://downloads.reprex.nl/2025/greenpaper/green-paper-v081.pdf) Minor stylistic changes.
 
-0.8.4: Update of the _Open Music Observatory: Building a Shared Music Data Space_ chapter; bringing it into closer alignment with the technical documentation of the Open Music Observatory (available [here](https://downloads.reprex.nl/2025/open-music-observatory/index.html).)
+0.8.4: Update of the *Open Music Observatory: Building a Shared Music Data Space* chapter; bringing it into closer alignment with the technical documentation of the Open Music Observatory (available [here](https://downloads.reprex.nl/2025/open-music-observatory/index.html).)
 
-[0.9.0]((https://doi.org/10.5281/zenodo.17767905)): Shared with the _Copyright Infrastructure Task Force_. [10.5281/zenodo.17767905](https://doi.org/10.5281/zenodo.17767905)
+[0.9.0]((https://doi.org/10.5281/zenodo.17767905)): Shared with the *Copyright Infrastructure Task Force*. [10.5281/zenodo.17767905](https://doi.org/10.5281/zenodo.17767905)
 
-[0.9.1](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.9.1): Update with _Towards Critical Artificial Intelligence Literacies_
-## Main files for the report
+[0.9.1](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.9.1): Update with *Towards Critical Artificial Intelligence Literacies* \## Main files for the report
 
 chapters:
 
@@ -39,11 +38,10 @@ chapters:
 
 -   `references.qmd`: A placeholder start printing the bibliographic references.
 
--   `license.qmd`:  This document is licensed under the `CC BY 4.0 LEGAL CODE Attribution 4.0 International` license. You can use it in your work, but you must give credit to the creators in the following format. \
+-   `license.qmd`: This document is licensed under the `CC BY 4.0 LEGAL CODE Attribution 4.0 International` license. You can use it in your work, but you must give credit to the creators in the following format.\
 
 **Please refer to the the document as**:\
 Antal, D. (2025). Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem: Practical Steps Towards a Decentralised and Open European Music Observatory (0.9.0). Open Music Observatory. <https://doi.org/10.5281/zenodo.17767905>
-
 
 ## Bibliographical references
 
@@ -92,6 +90,8 @@ The bibliographic references are organised by themes, and they are stored in the
 -   `bib/musicindustry.bib`: Music industry typologies, conceptualisations.
 
 -   `bib/ontologies.bib`: bibliography of formal ontologies.
+
+-   `bib/opa.bib`: bibliography on the Open Policy Analysis Guidelines.
 
 -   `bib/opendata.bib`: bibliography on the EU open data policies.
 

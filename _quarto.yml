@@ -84,6 +84,7 @@ bibliography:
     - bib/musicindustry.bib
     - bib/musicmetadata.bib
     - bib/ontologies.bib
+    - bib/opa.bib
     - bib/opendata.bib
     - bib/OpenMusE.bib
     - bib/services.bib
