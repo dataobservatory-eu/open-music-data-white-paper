@@ -2,9 +2,9 @@
 
 ![](png/Banner_OME_Green_Paper_white.png){fig-align="center"}
 
-There are musical works that are reinterpreted thousands of times across centuries. A symphony by Beethoven or a folk song from the Baltic coast can be heard again and again, each performance producing a new reading of something that never becomes “final.” The same is true of sound recordings. Some perennial recordings are rediscovered after sixty years, remastered, and brought into circulation for new audiences.
+There are musical works that are reinterpreted thousands of times across centuries. A symphony by Beethoven or a folk song from the Baltic coast can be heard again and again, each performance offering a new reading of something that never becomes “final.” The same is true of sound recordings: some are rediscovered decades later, remastered, and brought back into circulation for new audiences.
 
-Music assets, in other words, have an unusually long lifecycle. This is just as true of their documentation — the metadata that accompanies them from creation to archiving. Metadata does not freeze a work or recording in time. Instead, it evolves with it: from the moment of rights registration, through commercial distribution and playlisting, to preservation in a library or archive. Each new interpretation, remix, or reissue generates new metadata; and each new information system demands new connections and contexts.
+Music assets, in other words, have an unusually long lifecycle. This is equally true of their documentation — the metadata that accompanies them from creation to archiving. Metadata does not freeze a work or recording in time. Instead, it evolves alongside it: from the moment of rights registration, through commercial distribution and playlisting, to preservation in a library or archive. Each new interpretation, remix, or reissue generates new metadata, and each new information system demands new connections and contexts.
 
 This *Green Paper* builds on a substantial body of prior European policy analysis concerning copyright data, metadata interoperability, and the implications of new technologies for the cultural and creative sectors. In particular, it draws on the *Study on copyright and new technologies: copyright data management and artificial intelligence*, commissioned by the European Commission (DG CNECT) and published in 2022[^index-1].
 
@@ -17,31 +17,33 @@ The study further noted that emerging technologies, including artificial intelli
 ::: callout-note
 #### Why this Green Paper matters for music professionals? {.unnumbered}
 
--   Streaming has centralised power in platforms, but left rights-holders with micro-royalties and huge admin burdens.
+-   Streaming has centralised power in platforms, while leaving rightsholders with micro-royalties and growing administrative burdens.
 
--   Metadata mistakes mean lost revenue — each unlinked ISRC or ISWC is money left on the table.
+-   Metadata mistakes translate directly into lost revenue — each unlinked ISRC or ISWC is money left unclaimed.
 
--   AI is already changing music — either it helps you fix documentation and get paid, or it floods the system with untracked works.
+-   AI is already reshaping music ecosystems: it can either support documentation and remuneration, or flood systems with untracked works.
 
--   Europe needs federated, cooperative solutions so independents, CMOs, and archives can compete on fairer terms.
+-   Europe needs federated, cooperative solutions so independents, collective management organisations, and heritage institutions can compete on fairer terms.
 :::
 
-There is rarely a single moment when music metadata can be considered complete. Metadata, like music itself, is open to reinterpretation. A name can be reconciled with an identifier; a work can be linked to a new performance; a recording can be embedded in new file formats. Each act of documentation adds layers of meaning and makes the music informative in a new environment.
+There is rarely a single moment when music metadata can be considered complete. Metadata, like music itself, is open to reinterpretation. A name may later be reconciled with an identifier; a work may be linked to a new performance; a recording may be embedded in new formats or platforms. Each act of documentation adds layers of meaning and makes music intelligible in new environments.
 
-This is not an invitation to reinvent the wheel. We can read Beethoven’s early prints as well as Iris Szeghy’s 21st-century scores because music notation — a standardised way of presenting the metadata of musical works — has remained remarkably stable for centuries. Notation shows that standardisation can endure, and that shared conventions make music legible across time, geography, and institutions.
+This is not an invitation to reinvent the wheel. We can still read Beethoven’s early prints as well as Iris Szeghy’s twenty-first-century scores because music notation — a standardised way of expressing the metadata of musical works — has remained remarkably stable for centuries. Notation demonstrates that standardisation can endure, and that shared conventions make music legible across time, geography, and institutions.
 
-{{< pagebreak >}}
+![In Slovakia, we implemented, using the European Interoperability Framework for shared digital services, public-private service integration to make music more visible and its handling more cost efficient. Our implementation aligns well with the requirements set by the Copright Infrastructure Task Force.](png/20250707_D_Antal_IAM_for_charts/Slide3.PNG){fig-align="center"}
 
-The invention of the computer, and later the internet, introduced new ways to document and transmit music. These innovations brought powerful efficiencies: identifiers like the ISRC and ISWC, digital distribution pipelines, and networked catalogues have enabled the global circulation of music at unprecedented scale. But they also created new fragmentation. Standards proliferated, identifiers failed to interconnect, and workflows designed for one purpose often broke down in another. What was intended as progress sometimes left behind a mess of overlapping, incompatible, or incomplete metadata — a mess that now needs to be cleared up.
+The invention of the computer, and later the internet, introduced new ways to document and transmit music. These innovations brought powerful efficiencies: identifiers such as the ISRC and ISWC, digital distribution pipelines, and networked catalogues enabled the global circulation of music at unprecedented scale. At the same time, they produced new fragmentation. Standards proliferated, identifiers failed to interconnect, and workflows designed for one purpose often broke down in another. What was intended as progress frequently resulted in overlapping, incompatible, or incomplete metadata — a legacy that now requires systematic repair.
 
 ::: callout-note
-This Green Paper is a maturing policy document, prepared in line with **Open Policy Analysis** and the **Horizon Europe Data Management Guidelines**. It has been released early to allow consultation, incorporate stakeholder input, and provide a transparent development process. This Green Paper extends the analysis developed in the first OpenMusE policy brief on music metadata mainstreaming and EU law (Deliverable D5.6), and its findings are condensed into the second policy brief (Deliverable D5.7), which incorporates wider stakeholder consultations.[^index-2]
+This *Green Paper* is a maturing policy document developed within the **Open Music Europe (OpenMusE)** Horizon Europe **Research and Innovation Action** (Grant Agreement No. 101095295). It deliberately combines policy research with implementation piloting, reflecting the project’s emphasis on innovation, experimentation, and real-world validation rather than abstract policy design alone.
 
-**Transparency note**: Importantly, this *Green Paper* does not present a purely conceptual or speculative policy design. Substantial parts of the analysis synthesise lessons from policy-embedded implementation activities carried out using *Open Policy Analysi*s methods[^index-3], including openly documented data, code, workflows, and methodological decisions. These implementations were conducted in cooperation with public authorities and sectoral institutions, allowing the Green Paper to reflect not only policy aspirations but also the practical constraints and opportunities observed in real-world deployment.
+Prepared in line with the **Guidelines for Open Policy Analysis** (available at <https://www.bitss.org/opa/community-standards/>) and the **Horizon Europe Data Management Guidelines**, the document has been released early to support consultation, incorporate stakeholder input, and ensure transparency throughout its development. It extends the analysis developed in the first OpenMusE policy brief on music metadata mainstreaming and EU law (Deliverable D5.6), and its core findings are further condensed in the second policy brief (Deliverable D5.7), which integrates wider stakeholder consultations[^index-2].
 
-Following the principles of **Open Policy Analysis**, all related deliverables and technical documentation are publicly accessible to foster broad engagement and ensure a clear audit trail. Supporting documents for each chapter of this Green Paper are referenced in similar boxes. The current version (and future White Paper drafts) is available at <https://zenodo.org/records/17075796>. Standardised folders, figures, and bibliographies are available at <https://github.com/dataobservatory-eu/open-music-data-white-paper>.
+**Transparency note**: This *Green Paper* does not present a purely conceptual or speculative policy proposal. Substantial parts of the analysis synthesise lessons from policy-embedded implementation activities conducted using Open Policy Analysis methods, including openly documented data, code, workflows, and methodological decisions. These activities were carried out in cooperation with public authorities and sectoral institutions, allowing the paper to reflect both policy ambitions and real-world constraints.
 
-Please note that this document puts the Open Music Observatory, a prototype of a modern European Music Observatory developed by the OpenMusE consortium, which is being currently populated with economy, diversity, society, innovation data and has already three federated modules, can reviewed in the [technical documentation](https://downloads.reprex.nl/2025/open-music-observatory/) (see versioned [Zenodo DOIs](https://zenodo.org/records/17681323)), our viewn on the [temporary landing page](https://dataobservatory-eu.github.io/omo-landing-page/).
+In accordance with Open Policy Analysis principles[^index-3], all related deliverables and technical documentation are publicly accessible to foster engagement and ensure a clear audit trail. The current version (and future White Paper drafts) is available at <https://zenodo.org/records/17075796>. Standardised folders, figures, and bibliographies are available at <https://github.com/dataobservatory-eu/open-music-data-white-paper>.
+
+This document situates the **Open Music Observatory** as a central reference point. The Observatory is a prototype of a modern European Music Observatory developed by the OpenMusE consortium, currently populated with data on economy, diversity, society, and innovation, and operating multiple federated modules. Technical documentation and versioned DOIs are available via Zenodo, with an overview at <https://openmusicobservatory.eu/>.
 
 **Funding acknowledgement:** This project has received funding from the European Union’s Horizon Europe programme under Grant Agreement No. [101095295](https://cordis.europa.eu/project/id/101095295). The views expressed are those of the authors only and do not necessarily reflect those of the European Commission or its agencies[^index-4].
 
@@ -61,8 +63,8 @@ Please note that this document puts the Open Music Observatory, a prototype of a
 Our document has been presented and discussed with industry specialists on the following forums:
 
 -   Big Data Value Association, Gaia-X: Dataweek²⁴: Introducing a new European music dataspace[^index-6]
--   Echoes/ECCH:
--   Hungarian stakeholders interested in replication of the Slovak pilot versions [^index-7].
+-   Echoes/ECCH: The ECHOES (European Cloud for Heritage OpEn Science) policy even and workshop, 12-13 December 2024 at the Royal Institute for Cultural Heritage (KIK-IRPA), Brussels,
+-   Hungarian stakeholders interested in replication of the Slovak pilot versions in various meetings throughout 2024 and 2025[^index-7].
 -   CISAC: Protecting Creators’ Rights in the AI Era: OpenMusE at the European Committee Meeting, Vilnius, 29-30 April [^index-8].
 -   The Fair MusE - Prelude to a fairermusic industry Fair MusE project[^index-9]
 -   IAMIC [^index-10]: The *International Association of Music Information Centres* and several key members of the organisation.
