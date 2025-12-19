@@ -10,6 +10,36 @@ EU-level studies and policy frameworks have recognised these dynamics and increa
 
 [^context-2]: *European Parliament Resolution on cultural diversity and the conditions for authors in the European music streaming market* [@ep_resolution_music_streaming_2024]; it recognises streaming as the dominant global revenue source while leaving many authors with very low income (recitals F–H), stresses accurate metadata allocation at the time of creation using identifiers ISWC, ISRC, ISNI, IPI, and IPN (recital R, and 9.), highlights the lack of quality data to properly identify authors, performers, and rights holders (recital L), and warns that AI-generated tracks are flooding streaming platforms, aggravating discoverability and remuneration imbalances (recital O).
 
+::: callout-note
+## ddddd
+
+This Green Paper was developed as part of the *Open Music Europe* Horizon Europe Research and Innovation Action and reflects a deliberate methodological choice: to integrate policy analysis with implementation piloting rather than treating them as separate phases. The project combined research, stakeholder consultation, and hands-on experimentation to test how European music data infrastructures can be built incrementally, under real institutional constraints, and across multiple governance levels.
+
+The Open Music Observatory (OMO) is both a research output and an operational prototype. During the project, the consortium implemented:
+
+-   a **national music data sharing space** (the Slovak Comprehensive Music Database), available at <https://hudobnadatabaza.sk/en/>
+
+-   a **partial national replication** in another Member State (Hungary),
+
+-   a **sub-national and cultural-identity–based module** (the Finno-Ugric Data Sharing Space), available at <https://finnougric.net/en/>, which also shows that like the EU Culture Data Hub, it is not practical to work with music as an isolated domain, and
+
+-   a **pan-European core module** aggregating datasets, indicators, and studies, available at <https://openmusicobservatory.eu/>
+
+Together, these pilots demonstrate how a federated, decentralised model can function across supranational, national, regional, and community levels without forcing centralisation. They show how research concepts such as interoperability, provenance, FAIR data, and subsidiarity translate into governance agreements, workflows, and technical interfaces.
+
+This implementation-driven approach responds directly to long-standing European policy calls for a European Music Observatory, including the *European Parliament Resolution on Cultural Diversity and the Conditions for Authors in the European Music Streaming Market* (P9_TA(2024)0020), and aligns with emerging frameworks such as the European Interoperability Framework, the EU Data Strategy, the European Open Science Cloud, and the European Collaborative Cloud for Cultural Heritage. The Green Paper therefore serves both as a policy synthesis and as a documented reference implementation that can inform future European action.
+:::
+
+The European Commission’s feasibility study for the establishment of a European Music Observatory explicitly highlighted CEEMID as a best-practice example of decentralised, open, and reproducible music data integration, recommending that its approach be further explored during the start-up phase of a future Observatory[^context-3]. The *Open Music Observatory* can therefore be understood as a direct response to this recommendation, updated to reflect subsequent European data space, copyright infrastructure, and AI policy developments.
+
+[^context-3]: *Measuring and Reporting Regional Economic Value Added, National Income and Employment by the Music Industry in a Creative Industries Perspective. Memorandum of Understanding to Create a Regional Music Database to Support Professional National Reporting, Economic Valuation and a Regional Music Study* [@artisjus_measuring_2014] and *Central And Eastern European Music Industry Report (2020)* [@antal_ceereport_2020].
+
+Beyond metadata coordination, a key ambition of the Slovak pilot was to address a deeper policy problem: the absence of music-specific economic evidence produced in line with best statistical practice. The pilot was explicitly designed around established methods for business satellite accounts, with the aim of harmonising authoritative collective rights management data with administrative registers, industry datasets, and statistical surveys. This approach sought to generate music-specific statistical indicators that Slovakia’s existing cultural and creative satellite accounting system cannot provide, and which are unavailable in most EU Member States due to the absence of dedicated cultural or creative satellite accounts altogether.
+
+In practical terms, this meant treating rights management data—often the most complete and economically meaningful source of information on music activity—not merely as sectoral metadata, but as a statistical input capable of feeding official economic indicators when properly harmonised and governed. By linking these data sources while preserving methodological transparency, reproducibility, and comparability, the pilot anticipated a model in which music could become visible in official economic statistics without requiring centralised data extraction. Although this experiment was not implemented within the OpenMusE project due to resource constraints and changing institutional conditions, its design remains methodologically sound and operationally feasible, and is directly aligned with current efforts to develop the *EU Cultural Data Hub* as a foundation for evidence-based cultural policy[^context-4].
+
+[^context-4]: *Pilot Program for Novel Music Industry Statistical Indicators in the Slovak Republic* [@antal_slovak-cult-stat-pilot]. The pilot was not implemented within the OpenMusE project due to resource constraints and institutional changes, but its methodological design remains valid and suitable for continuation in the context of EU Cultural Data Hub preparatory work.
+
 In line with the European Commission’s *Culture Compass for Europe*, this Green Paper argues that Europe’s cultural data future must be built on shared, interoperable infrastructures. At the same time, it demonstrates that certain cultural domains — notably music — require specialised, federated implementation layers due to the density of rights, frequency of reuse, and exposure to algorithmic systems. Music therefore provides a strategically valuable reference case for implementing the Culture Compass’s data and AI ambitions in practice.
 
 From the outset of this work, we have taken the view that Europe should avoid building siloed cultural data infrastructures by domain. Wherever possible, cultural data should be shared across domains through common principles, identifiers, and governance frameworks. Domain-specific solutions should emerge only where generic infrastructures reach their limits.
@@ -18,13 +48,13 @@ This brings us to a third major contribution to this landscape in the form of th
 
 Music is one of the domains where these limits are reached earliest and most visibly, because of its very complex rights management infrastructure, and the extremely high number of events and digital artefacts related to it.
 
-The feasibility study of the Common European Data Space for Cultural Heritage (ECCCH) focuses primarily on digitisation, discovery, preservation, and reuse across cultural heritage domains. This cross-domain orientation is both necessary and appropriate at the foundational level. However, the study does not substantially address music as a domain, nor the specific challenges of music rights, reuse intensity, or lifecycle-driven metadata mutation.
+The feasibility study of the *Common European Data Space for Cultural Heritage* (ECCCH) focuses primarily on digitisation, discovery, preservation, and reuse across cultural heritage domains. This cross-domain orientation is both necessary and appropriate at the foundational level. However, the study does not substantially address music as a domain, nor the specific challenges of music rights, reuse intensity, or lifecycle-driven metadata mutation.
 
 This omission is not accidental, but illustrative: the generic cultural heritage layer cannot realistically encode the sector-specific legal, economic, and technical logic required for music. At this point, neither Europeana or the ECCCH's first draft ontology can handle music's copyright rights management and attribution system. Music needs to find its own platform to bring to the cross-domain infrastructure its own data needs.
 
-In 2025 the *CITF First Project Report*, coordinated by the National Libraries of Finland and Latvia. CITF identifies open identifiers, machine-readable rights metadata, and national libraries as core components of a future copyright infrastructure. It introduces a three-layer model (foundational, semantic, technical) and provides lifecycle analysis of protected works in the AI era. Its findings complement the *Music Ecosystem 2025* and *EMO feasibility* studies by foregrounding the role of cultural heritage institutions and the need for trustworthy, interoperable copyright registries[^context-3].
+In 2025 the *CITF First Project Report*, coordinated by the National Libraries of Finland and Latvia. CITF identifies open identifiers, machine-readable rights metadata, and national libraries as core components of a future copyright infrastructure. It introduces a three-layer model (foundational, semantic, technical) and provides lifecycle analysis of protected works in the AI era. Its findings complement the *Music Ecosystem 2025* and *EMO feasibility* studies by foregrounding the role of cultural heritage institutions and the need for trustworthy, interoperable copyright registries[^context-5].
 
-[^context-3]: *Interoperable, trustworthy, and machine-readable copyright data in the AI era. Report of the CITF First Project* [@citf_2025]
+[^context-5]: *Interoperable, trustworthy, and machine-readable copyright data in the AI era. Report of the CITF First Project* [@citf_2025]
 
 Our policy brief positions itself within this landscape. It aims to support and extend the Music Moves Europe framework by highlighting six crucial dimensions:
 
@@ -45,25 +75,27 @@ Three structural pressures frame today’s metadata challenges:
 
 2.  **AI-driven disruption.** Agentic AI in streaming platforms has already displaced much of the traditional retail and promotion infrastructure. Both pre-deployment and post-deployment of AI affect reproduction, distribution, and attribution rights. Generative AI risks flooding platforms with derivative works and further destabilising discoverability and revenues. Yet AI tools could also support documentation and reconciliation — if governance frameworks can enable them.
 
-3.  **Governance and incentive conflicts.** Identifiers such as ISWC, ISRC, ISNI, and IPN are essential for attribution and royalty distribution, but are maintained under costly, largely private regimes. Public policy increasingly demands more open metadata, but sustaining investment in these registers remains a challenge. Opt-out rights in AI training and the need for harmonised opt-out registries[^context-4], further complicate governance and incentive structures.
+3.  **Governance and incentive conflicts.** Identifiers such as ISWC, ISRC, ISNI, and IPN are essential for attribution and royalty distribution, but are maintained under costly, largely private regimes. Public policy increasingly demands more open metadata, but sustaining investment in these registers remains a challenge. Opt-out rights in AI training and the need for harmonised opt-out registries[^context-6], further complicate governance and incentive structures.
 
-[^context-4]: As emphasised by CITF on pp. 17, 23–24 [@citf_2025, p17, pp. 23-25].
+[^context-6]: As emphasised by CITF on pp. 17, 23–24 [@citf_2025, p17, pp. 23-25].
 
-These pressures mean that improving metadata is not only a matter of technical interoperability. It is also a question of economic sustainability, legal coherence, and cultural policy.
+These pressures mean that improving metadata is not only a matter of technical interoperability. It is also a question of economic sustainability, legal coherence, and cultural policy. A recent policy paper of *Open Future* and *Europeana* made the same diagnosis in a wider, not music domain specific context: heritage institutions are being forced to publish data into AI-driven reuse environments before governance, provenance, and rights frameworks are ready[^context-7]. The music domain digitised early and has plenty of experience with this increasing problem.
+
+[^context-7]: *Publishing Cultural Heritage Data in the Age of AI* [@publishing_CHD_AI_2025]
 
 ## National and European pilots as anchors {#sec-anchors}
 
-The analytical conclusions of the *Study on copyright and new technologies* subsequently informed further work at Member State and European levels[^context-5], including the establishment of the **Copyright Infrastructure Task Force** (**CITF**). The first CITF project report translates the study’s findings into a set of concrete infrastructure-oriented requirements, focusing on interoperable identifiers, standardised metadata schemas, and governance arrangements capable of supporting copyright-relevant data in the digital and AI era[^context-6].
+The analytical conclusions of the *Study on copyright and new technologies* subsequently informed further work at Member State and European levels[^context-8], including the establishment of the **Copyright Infrastructure Task Force** (**CITF**). The first CITF project report translates the study’s findings into a set of concrete infrastructure-oriented requirements, focusing on interoperable identifiers, standardised metadata schemas, and governance arrangements capable of supporting copyright-relevant data in the digital and AI era[^context-9].
 
-[^context-5]: *Study on copyright and new technologies: copyright data management and artificial intelligence* (SMART 2019/0038) [@study_on_copyright_new_technologies_2022]
+[^context-8]: *Study on copyright and new technologies: copyright data management and artificial intelligence* (SMART 2019/0038) [@study_on_copyright_new_technologies_2022]
 
-[^context-6]: *Interoperable, Trustworthy, and Machine-Readable Copyright Data in the AI Era: Report of the CITF First Project*[@citf_2025]
+[^context-9]: *Interoperable, Trustworthy, and Machine-Readable Copyright Data in the AI Era: Report of the CITF First Project*[@citf_2025]
 
 In this sense, the CITF process represents a continuation and operationalisation of earlier Commission-initiated analysis rather than a departure from it. The national and European pilots discussed below should be understood within this broader policy trajectory, as practical efforts to test, implement, and refine the types of solutions identified through these preceding analytical and consultative processes.
 
-Several of the implementation pilots referenced in this Green Paper were conducted within formal policy cooperation frameworks rather than as isolated technical experiments. In the Slovak Republic, this work was guided by a *Memorandum of Understanding concluded between the Ministry of Culture of the Slovak Republic and members of the OpenMusE consortium*[^context-7]. The Memorandum established a framework for the reuse of open policy analysis outputs in cultural and creative sector policymaking and explicitly supported transparent, evidence-based experimentation with data governance and metadata infrastructures.
+Several of the implementation pilots referenced in this Green Paper were conducted within formal policy cooperation frameworks rather than as isolated technical experiments. In the Slovak Republic, this work was guided by a *Memorandum of Understanding concluded between the Ministry of Culture of the Slovak Republic and members of the OpenMusE consortium*[^context-10]. The Memorandum established a framework for the reuse of open policy analysis outputs in cultural and creative sector policymaking and explicitly supported transparent, evidence-based experimentation with data governance and metadata infrastructures.
 
-[^context-7]: *Memorandum o porozumení o využití výsledkov analýz otvorených politík v kontexte slovenského kultúrneho a kreatívneho priemyslu a sektorových verejných politík v spolupráci s konzorciom pre výskum a inovácie s názvom OpenMuse.* \[Memorandum of Understanding on utilizing the Open Policy Analysis results of the OpenMuse Research and Innovation Consortium in the context of Slovak cultural and creative industries and sectors' public policies\][@open_music_europe_sk_mou_2023]
+[^context-10]: *Memorandum o porozumení o využití výsledkov analýz otvorených politík v kontexte slovenského kultúrneho a kreatívneho priemyslu a sektorových verejných politík v spolupráci s konzorciom pre výskum a inovácie s názvom OpenMuse.* \[Memorandum of Understanding on utilizing the Open Policy Analysis results of the OpenMuse Research and Innovation Consortium in the context of Slovak cultural and creative industries and sectors' public policies\][@open_music_europe_sk_mou_2023]
 
 This institutional context is significant because it situates the Slovak pilot activities, its replication in Hungary and in the Baltic region within existing public policy processes and legal competences, involving national authorities, collective management organisations, universities, and memory institutions. As a result, the *Open Music Observatory* (pan-European central module, available at <https://openmusicobservatory.eu/>), its national federated *Slovak Comprehensive Music Database* (available at [https://hudobnadatabaza.sk/](https://hudobnadatabaza.sk/en/photos/faceted-search/table?page=0)), the national federated *Hungarian Music Database*, and the music module of the sub-national *Finno-Ugric Data Sharing Space* (available at [https://finnougric.net/](https://finnougric.net/en/)) should be seen not only as a technical pilot, but as an example of policy-embedded implementation aligned with both national cultural policy objectives and emerging European discussions on copyright infrastructure.
 
@@ -103,9 +135,25 @@ SKCMDb thus acts as a bridge between cultural memory institutions, rights manage
 
 SKCMDb provides a pragmatic response to fragmentation and duplication. It anchors the discussion of **preventive metadata strategies** in @sec-curation.
 
-This challenge is not unique to Slovakia. A recent Horizon Europe policy brief has highlighted how **inadequate metadata infrastructures** and **fragmented European initiatives** risk leaving the field open to dominance by extra-European players (for example, the US Mechanical Licensing Collective).[^context-8]
+This challenge is not unique to Slovakia. A recent Horizon Europe policy brief has highlighted how **inadequate metadata infrastructures** and **fragmented European initiatives** risk leaving the field open to dominance by extra-European players (for example, the US Mechanical Licensing Collective).[^context-11]
 
-[^context-8]: See *Policy Brief 1: Music Metadata Mainstreaming and EU Law* [@ivir_metadata_policy_2024] (Deliverable D5.6, OpenMusE project). That brief emphasises that without a European metadata infrastructure, EU repertoires may remain underexploited and culturally invisible, while foreign platforms consolidate hegemony. The present Green Paper extends on this line of argument by focusing on lifecycle-based interoperability and federated observatories as safeguards for European sovereignty.The Policy Brief 1 Annex references the Slovak Listen Local / SKCMDb project as a national pilot, underlining its relevance for EU-level policy design. The *Green Paper* complements this by situating the MoU as a replicable governance framework for federated metadata spaces.
+[^context-11]: See *Policy Brief 1: Music Metadata Mainstreaming and EU Law* [@ivir_metadata_policy_2024] (Deliverable D5.6, OpenMusE project). That brief emphasises that without a European metadata infrastructure, EU repertoires may remain underexploited and culturally invisible, while foreign platforms consolidate hegemony. The present Green Paper extends on this line of argument by focusing on lifecycle-based interoperability and federated observatories as safeguards for European sovereignty.The Policy Brief 1 Annex references the Slovak Listen Local / SKCMDb project as a national pilot, underlining its relevance for EU-level policy design. The *Green Paper* complements this by situating the MoU as a replicable governance framework for federated metadata spaces.
+
+::: callout-note
+#### Building the Diversity Pillar of the European Music Observatory with Federated Knowledge Graphs {.unnumbered}
+
+The diversity dimension of the Open Music Observatory is developed most fully *Music, Heritage, and Policy in the Age of AI — Building the Diversity Pillar of the European Music Observatory with Federated Knowledge Graphs* DOI: [10.5281/zenodo.17922390](https://doi.org/10.5281/zenodo.17922390)[^context-12], which operationalises the policy principles and recommendations of this Green Paper into a concrete implementation blueprint, workflows, and indicators, and serves as the primary technical reference for Deliverable D2.3. Unlike many policy analyses that treat diversity primarily as a monitoring objective, the Open Music Observatory Diversity Pillar operationalises diversity as a data governance and infrastructure problem.
+
+Prepared within the Open Music Europe Horizon Europe Research and Innovation Action, it demonstrates how diversity-related policy goals — including cultural diversity, linguistic plurality, regional representation, and the visibility of marginalised repertoires — can be embedded directly into metadata models, identifiers, workflows, and observability rules. Rather than relying on downstream correction or reporting alone, the approach implements diversity by design at the point where data is created, linked, and reused.
+
+The deliverable draws on implemented pilots, including the *Slovak Comprehensive Music Database*, the *Finno-Ugric Data Sharing Space*, and cross-border replication experiments, to show how federated infrastructures can support diversity-sensitive indicators without centralisation. It addresses issues such as unequal documentation capacity, under-representation of minority repertoires, language bias in identifiers and authority files, and the amplification of existing inequalities by algorithmic systems.
+
+In policy terms, the document is relevant to current European debates on AI, cultural diversity, as an extension of this *Green Paper*. It shows how trustworthy, provenance-aware metadata infrastructures can make diversity measurable, actionable, and auditable — rather than symbolic — and how these mechanisms can feed both cultural policy and AI governance frameworks.
+
+[Music, Heritage, and Policy in the Age of AI — Building the Diversity Pillar of the European Music Observatory with Federated Knowledge Graphs](https://downloads.reprex.nl/2025/omo-diversity-pillar/D21_first_draft.html) therefore complements the present *Green Paper* by providing a fully implemented reference for the diversity pillar, demonstrating how the Open Music Observatory can support European cultural diversity objectives in practice, not only in principle.
+:::
+
+[^context-12]: *Music, Heritage, and Policy in the Age of AI* [@antal_diversity_pillar_2025]
 
 ### Unlabel
 
@@ -138,9 +186,9 @@ Streaming platforms are genuine big-data companies. Alphabet’s YouTube, Apple,
 
 Music, then, is now sold in **extremely low-value transactions mediated by autonomous agents**. This reality enforces a very strong pressure on the entire ecosystem to improve data interoperability and metadata quality.
 
-As the CITF report emphasises, AI introduces legal lifecycle pressures: both the training and deployment of AI systems may trigger reproduction, distribution, adaptation, and communication-to-the-public rights. This amplifies the economic consequences of metadata fragmentation: missing or inconsistent identifiers now propagate across algorithmic pipelines as well as financial ones[^context-9].
+As the CITF report emphasises, AI introduces legal lifecycle pressures: both the training and deployment of AI systems may trigger reproduction, distribution, adaptation, and communication-to-the-public rights. This amplifies the economic consequences of metadata fragmentation: missing or inconsistent identifiers now propagate across algorithmic pipelines as well as financial ones[^context-13].
 
-[^context-9]: See [@citf_2025, p31].
+[^context-13]: See [@citf_2025, p31].
 
 By contrast, in most industries administrative overhead is modest:
 
@@ -151,9 +199,9 @@ By contrast, in most industries administrative overhead is modest:
 
 In “normal” industries, then, €50 of administrative cost is justified on €1000 of revenue. By comparison, in the recorded music industry, achieving that same 5% efficiency requires delivering faultlessly some 200,000 streaming transactions. This is a **very tall order** for a sector dominated by micro-enterprises and small independents without dedicated IT or metadata teams.
 
-The pressure for efficiency is not only present on the production side of the music business. In the **non-profit sector**, digitisation has profoundly transformed the workflows of archives, libraries, and heritage institutions as well. Streaming has reduced demand for physical collections, forcing libraries to reframe their role around digitisation, knowledge organisation, and community functions rather than lending CDs or scores. New spaces like creative studios and digital repositories are expected, but funding is limited, so efficiency is critical. At the same time, the vast amount of born-digital assets — and now the endless output of generative AI systems — creates a puzzle for archives that remains unsolved today.[^context-10]
+The pressure for efficiency is not only present on the production side of the music business. In the **non-profit sector**, digitisation has profoundly transformed the workflows of archives, libraries, and heritage institutions as well. Streaming has reduced demand for physical collections, forcing libraries to reframe their role around digitisation, knowledge organisation, and community functions rather than lending CDs or scores. New spaces like creative studios and digital repositories are expected, but funding is limited, so efficiency is critical. At the same time, the vast amount of born-digital assets — and now the endless output of generative AI systems — creates a puzzle for archives that remains unsolved today.[^context-14]
 
-[^context-10]: See for example the Katona József Library’s adaptive strategies [@virag_2024]. Archives, on the other hand, face a problem that instead of receiving records on paper, they are becoming gigantic data silos in the age of born-digital documents. They are being transformed into data through digitisation and born-digital records, face volumes too large for manual processing. This pressures traditional archival concepts such as provenance, original order, fixity, and authenticity [@colavizza_2022].
+[^context-14]: See for example the Katona József Library’s adaptive strategies [@virag_2024]. Archives, on the other hand, face a problem that instead of receiving records on paper, they are becoming gigantic data silos in the age of born-digital documents. They are being transformed into data through digitisation and born-digital records, face volumes too large for manual processing. This pressures traditional archival concepts such as provenance, original order, fixity, and authenticity [@colavizza_2022].
 
 ::: infobox
 **Metadata as provenance**
@@ -168,6 +216,8 @@ Metadata is “data about data.” But in practice, what counts as data or metad
 
 As shown in @sec-anchors, pilots like **SKCMDb** and **Unlabel** provide two complementary responses: preventive governance of metadata at creation (@sec-curation), and curative repair of legacy repertoires (@sec-ai; @sec-observatory).
 :::
+
+The earlier introduced *Open Future* and *Europeana* policy brief on the publication of cultural heritage data in the age of artificial intelligence highlights why provenance failures can no longer be treated as a tolerable archival imperfection. When incomplete, ambiguous, or degraded provenance metadata is incorporated into automated and AI-driven systems, those systems tend to treat it as authoritative, propagating errors, omissions, and misattributions at scale rather than correcting them. In this context, broken provenance is not merely a documentation problem but a structural risk: once embedded in algorithmic pipelines, it shapes discovery, attribution, reuse, and economic outcomes in ways that are difficult to reverse. This reinforces the need for lifecycle-aware metadata governance that treats provenance as a core infrastructural concern in the AI era, rather than as a secondary administrative afterthought.
 
 ## Potential solutions
 
@@ -189,7 +239,7 @@ The challenges described above call for coordinated responses that combine techn
     Many repertoires remain invisible due to incomplete or inconsistent documentation. **Curative AI** (@sec-ai) can support enrichment, translation, duplicate detection, and plagiarism monitoring, extending the principles of Unlabel to broader repertoires.
 
 6.  **Bridges to public infrastructures.**\
-    Europe already invests in the **European Open Science Cloud (EOSC)**, the **European Collaborative Cloud for Cultural Heritage (ECCCH)**, and **Europeana**. These infrastructures should be aligned with the music sector to support both cultural preservation and competitive participation in digital markets.
+    Europe already invests in the *European Open Science Cloud (EOSC)*, the *European Collaborative Cloud for Cultural Heritage (ECCCH)*, and *Europeana*. These infrastructures should be aligned with the music sector to support both cultural preservation and competitive participation in digital markets.
 
 7.  **Shared AI services.**\
     Micro-enterprises, NGOs, and CMOs cannot build in-house AI capacity. Cooperative AI utilities — reconciliation-as-a-service, metadata repair pipelines, watchlists for duplicates — can be pooled under shared governance (@sec-ai).
