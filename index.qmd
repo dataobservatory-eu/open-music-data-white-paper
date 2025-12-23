@@ -83,7 +83,7 @@ Our document has been presented and discussed with industry specialists on the f
 
 [^index-9]: We received useuful feedback for this Green Ppaer from the project and see further synergies in presenting our policy findings together. <https://fairmuse.eu/about/>
 
-[^index-10]: We presented and discussed these ideas at the *International Association of Music Information Centres* on the General Assembly and Annual Conference 2024 on November 21, 2024, at Music Austria, Vienna. See the presentation and its poster format [@skcmdb_iamic_poster_2024].
+[^index-10]: We presented and discussed these ideas at the *International Association of Music Information Centres* on the General Assembly and Annual Conference 2024 on November 21, 2024, at Music Austria, Vienna. See the presentation and its poster format [@antal_iamic_presentation_2024; @skcmdb_iamic_poster_2024].
 
 [^index-11]: We presented and discussed these ideas at the *International Association of Music Libraries, Archives and Documentation Centers* on the General Assembly and Annual Conference 7th and 9th of July 2025 in Salzburg, Austria. See the presentation and its poster format [@skcmdb_iaml_presentation_2025; @skcmdb_iaml_poster_2025].
 
