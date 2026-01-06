@@ -20,7 +20,9 @@ Change history
 
 [0.9.0]((https://doi.org/10.5281/zenodo.17767905)): Shared with the *Copyright Infrastructure Task Force*. [10.5281/zenodo.17767905](https://doi.org/10.5281/zenodo.17767905)
 
-[0.9.1](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.9.1): Update with *Towards Critical Artificial Intelligence Literacies* \## Main files for the report
+[0.9.1](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.9.1): Update with *Towards Critical Artificial Intelligence Literacies* 
+
+[0.9.4](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.9.4): CITF Annex 
 
 chapters:
 
@@ -40,8 +42,10 @@ chapters:
 
 -   `license.qmd`: This document is licensed under the `CC BY 4.0 LEGAL CODE Attribution 4.0 International` license. You can use it in your work, but you must give credit to the creators in the following format.\
 
+-   `citf.qmd`: An Annex on alignment with CITF.
+
 **Please refer to the the document as**:\
-Antal, D. (2025). Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem: Practical Steps Towards a Decentralised and Open European Music Observatory (0.9.0). Open Music Observatory. <https://doi.org/10.5281/zenodo.17767905>
+Antal, D. (2026). Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem: Practical Steps Towards a Decentralised and Open European Music Observatory (0.9.4). Open Music Observatory. <https://doi.org/10.5281/zenodo.18094885>
 
 ## Bibliographical references
 
@@ -98,6 +102,11 @@ The bibliographic references are organised by themes, and they are stored in the
 -   `bib/opendata.bib`: bibliography on the EU open data policies.
 
 -   `bib/OpenMusE.bib`: bibliographic entries on the Open Music Europe project's documents.
+
+-   `bib/openmusicobservatory.bib`: bibliographic entries on the Open Music Observatory.
+
+-   `bib/openmusicrepositories.bib`: bibliographic entries on the Open Music Europe open policy analysis repositories.
+
 
 -   `bib/ossh.bib`: open-source software and hardware bibliography.
 

@@ -8,7 +8,7 @@ execute:
 greenpaper:
   version: "0.9.3"
   
-version: "0.9.3"
+version: "0.9.4"
 DOI: "10.5281/zenodo.17948741"
 
 book:
@@ -19,7 +19,7 @@ book:
   title: "A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem"
   subtitle: "Practical Steps Towards a Decentralised and Open European Music Observatory"
   downloads: [pdf, epub, docx] 
-  output-file: green-paper-v093
+  output-file: green-paper-v094
   author:
      - name: "Daniel Antal, CFA"
        orcid: 0000-0001-7513-6760
@@ -41,7 +41,7 @@ book:
      - name: "Mikš, Tomaš"
        role: "Internal Reviewer"
        orcid: 0009-0004-7686-4611
-  date: "2024-12-16"
+  date: "2025-12-28"
   repo-url: https://github.com/dataobservatory-eu/open-music-data-white-paper
   repo-actions: [edit]
   chapters:
@@ -53,6 +53,9 @@ book:
     - ai.qmd
     - conclusion.qmd
     - references.qmd
+    
+  appendices:
+    - citf.qmd
 
 citation:
   container-title: "A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem"
@@ -87,6 +90,8 @@ bibliography:
     - bib/opa.bib
     - bib/opendata.bib
     - bib/OpenMusE.bib
+    - bib/openmusicobservatory.bib
+    - bib/openmusicrepositories.bib
     - bib/services.bib
     - bib/trustworthyAI.bib
     - bib/wikidata.bib
@@ -97,7 +102,7 @@ format:
   html:
     theme: cosmo
   docx: 
-    reference-doc: docx/OpenMusE_simple_template.docx
+    reference-doc: docx/OpenMuse_simple_template_2025.docx
     papersize: a4 
   pdf:
     documentclass: scrreprt

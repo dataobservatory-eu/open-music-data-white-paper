@@ -10,8 +10,12 @@ EU-level studies and policy frameworks have recognised these dynamics and increa
 
 [^context-2]: *European Parliament Resolution on cultural diversity and the conditions for authors in the European music streaming market* [@ep_resolution_music_streaming_2024]; it recognises streaming as the dominant global revenue source while leaving many authors with very low income (recitals F–H), stresses accurate metadata allocation at the time of creation using identifiers ISWC, ISRC, ISNI, IPI, and IPN (recital R, and 9.), highlights the lack of quality data to properly identify authors, performers, and rights holders (recital L), and warns that AI-generated tracks are flooding streaming platforms, aggravating discoverability and remuneration imbalances (recital O).
 
+This Green Paper is intentionally accompanied by two implementation-oriented references. First, the annex in @sec-citf clarifies how the Open Music Observatory operationalises the recommendations of the *CITF First Project Report* in a mixed public–private sector, and why we explicitly apply the *European Interoperability Framework* (EIF) layers (legal, organisational, semantic, technical) and the data sharing space concept when private registers and asymmetric governance are unavoidable. Second, the deliverable *Music, Heritage, and Policy in the Age of AI — Building the Diversity Pillar of the European Music Observatory with Federated Knowledge Graphs* provides a narrow, worked-through implementation blueprint showing how the policy logic of this Green Paper can be translated into actionable data governance, workflows, and indicators for diversity and circulation, rather than remaining at the level of general recommendations.[^context-0]
+
+[^context-0]: The CITF alignment annex is included in this Green Paper as an unnumbered section (“CITF”). The diversity-and-circulation implementation blueprint is *Music, Heritage, and Policy in the Age of AI — Building the Diversity Pillar of the European Music Observatory with Federated Knowledge Graphs* [@antal_diversity_pillar_2025] (Deliverable D2.3 / D21 draft).
+
 ::: callout-note
-## ddddd
+#### Transparency Note {.unnumbered}
 
 This Green Paper was developed as part of the *Open Music Europe* Horizon Europe Research and Innovation Action and reflects a deliberate methodological choice: to integrate policy analysis with implementation piloting rather than treating them as separate phases. The project combined research, stakeholder consultation, and hands-on experimentation to test how European music data infrastructures can be built incrementally, under real institutional constraints, and across multiple governance levels.
 
@@ -263,5 +267,5 @@ These materials provide additional detail on the legal, technical, and instituti
 
 [![You can download this report at \<https://julkaisut.valtioneuvosto.fi/server/api/core/bitstreams/3fb3f9ed-e93a-48fb-92e8-93c61a999e48/content\>](png/OKM_2025_23-frontpage_2x1.png){fig-align="center"}](https://julkaisut.valtioneuvosto.fi/server/api/core/bitstreams/3fb3f9ed-e93a-48fb-92e8-93c61a999e48/content)
 
-The CITF report, based on the *Study on copyright and new technologies: copyright data management and artificial intelligence*, defines a structured approach to future copyright infrastructures through three layers (foundational, semantic, technical). The solution pathways proposed in this Green Paper can be mapped onto these layers: identifier governance corresponds to the foundational layer; pragmatic ontology patterns map to the semantic layer; and federated pipelines align with the technical layer.
+The CITF report, based on the *Study on copyright and new technologies: copyright data management and artificial intelligence*, defines a structured approach to future copyright infrastructures through three layers (foundational, semantic, technical). The solution pathways proposed in this Green Paper can be mapped onto these layers: identifier governance corresponds to the foundational layer; pragmatic ontology patterns map to the semantic layer; and federated pipelines align with the technical layer. See for further details the @sec-citf in the Annex.
 :::
