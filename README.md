@@ -24,7 +24,9 @@ Change history
 
 [0.9.4](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.9.4): CITF Annex 
 
-chapters:
+[0.9.5](https://github.com/dataobservatory-eu/open-music-data-white-paper/releases/tag/0.9.5): Better explanation of copyright infrastructure servcies
+
+### Chapters:
 
 -   `index.qmd`: Executive summary
 
