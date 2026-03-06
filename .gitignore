@@ -44,3 +44,5 @@ background
 IFPI
 to_enrich.qmd
 reuseqmd
+
+**/*.quarto_ipynb

@@ -1,13 +1,15 @@
 # Open Music Observatory: Building a Shared Music Data Space {#sec-observatory}
 
+![You can visit the Open Music Observatory on <https://openmusicobservatory.eu/>. For API-level access get in touch with [Reprex](https://reprex.nl/contact/).](png/OMO/20260302_OPENMUSE_WP5_Final_v2_overview.png){fig-align="center"}
+
 ::: callout-note
 #### Open Music Observatory {.unnumbered}
 
-Our ambition with the development of the **Open Music Observatory** is to provide the technological basis and a practical roadmap for creating a European Music Observatory in a bottom-up, decentralised way. Instead of waiting for a grand, central agreement, any data owners or collectors who satisfy quality and cooperation rules can add their data. Once the Observatory reaches sufficient maturity, its long-term institutional form can be decided.
+Our ambition in developing the **Open Music Observatory** is to provide the technological basis and a practical roadmap for creating a European Music Observatory in a bottom-up, decentralised way. Instead of waiting for a grand, central agreement, any data owners or collectors who satisfy quality and cooperation rules can add their data. Once the Observatory reaches sufficient maturity, its long-term institutional form can be decided.
 
 The **Open Music Observatory** <https://openmusicobservatory.eu/> is a cornerstone task of the OpenMusE project (running until 31 December 2025), delivering data collection, processing, dissemination, and innovative services. It is a digital service provider for the music industry, aligned with the *European Interoperability Framework*, and introduces a unique governance model that adapts best practices from the EU and other sectors.
 
-**Transparency note:** Following the principles of **Open Policy Analysis**, we have made all key deliverables (including versions 0.99, 1.01, and 1.1 of the *Open Music Observatory* document) publicly accessible to foster broad stakeholder engagement and to provide a clear audit trail. These versions are available at <https://zenodo.org/records/11564114>, while version 1.0 remains internal and was shared only with OpenMusE evaluators. Minor edits, as well as access to the standardised folders, figures, and bibliographies, can be found at <https://github.com/dataobservatory-eu/open-music-observatory>. You can access the documentation in PDF, EPUB, and docx \[in case you would like to give us comments\] [here](https://downloads.reprex.nl/2025/open-music-observatory/).
+**Transparency note:** Following the principles of **Open Policy Analysis**, we have made all key deliverables (including versions 0.99, 1.01, and 1.1 of the *Open Music Observatory* document) publicly accessible to foster broad stakeholder engagement and to provide a clear audit trail. These versions are available at <https://zenodo.org/records/11564114>, while version 1.0 remains internal and was shared only with OpenMusE evaluators. Minor edits, as well as access to the standardised folders, figures, and bibliographies, can be found at <https://github.com/dataobservatory-eu/open-music-observatory>. You can access the documentation in PDF, EPUB, and DOCX formats \[if you would like to provide comments\] [here](https://downloads.reprex.nl/2025/open-music-observatory/).
 
 **Citation note:** If you refer to the specification of the *Open Music Observatory* in correspondence, publications, or blog posts, please cite the latest **versioned DOI** available on [Zenodo](https://zenodo.org/records/17681323) and, if applicable, include the date of access when referring to material on our GitHub repository.[^observatory-1]
 :::
@@ -19,10 +21,6 @@ The *Music Ecosystem 2025* report already emphasised that the music sector shoul
 [![Over the past decade, feasibility studies, national reports, and EU pilot projects have laid the foundation for the Open Music Observatory. The roadmap (2014–2026) shows a gradual build-up: from local experiments, through cross-border collaborations, to a European-wide federation aligned with cultural data spaces and interoperability frameworks. This trajectory underlines the Observatory’s pragmatic, step-by-step approach to scaling music data infrastructure. DOI: \[10.6084/m9.figshare.30073291.v1\](https://doi.org/10.6084/m9.figshare.30073291.v1)](png/OMO/OMO_timeline_20250908.png){fig-align="center"}](https://figshare.com/articles/figure/Timeline_of_the_Open_Music_Observatory_and_European_Music_Data_Initiatives_2014_2026_/30073291/1?file=57754420)
 
 ## Discussion
-
-::: callout-caution
-**This will be removed consultation** - EMO feasibility on scarcity/fragmentation and the need for regular, comparable data; EU dataspace thinking (EIF, FAIR); *Music Ecosystem 2025* on systemic view. - Industry positions on centralisation vs. federation; CMOs’ reliance on shared infra (e.g., Mint); heritage sector’s openness requirements.
-:::
 
 ### Why centralisation is a futile model
 
@@ -37,7 +35,9 @@ Between 2008 and 2014, European and global stakeholders pursued the **Global Rep
 
 However, the GRD ultimately **collapsed before launch**, despite several years of investment and the establishment of a London-based operating company. A similar project, the *International Music Registry* project, which was backed by the World Intellectual Property Organization, ended with similar results[^observatory-2].
 
-Post-mortems identified several reasons: - **Governance conflicts**: disagreements between major publishers, CMOs, and other stakeholders over who would control and fund the database.
+Post-mortems identified several reasons:
+
+-   **Governance conflicts**: disagreements between major publishers, CMOs, and other stakeholders over who would control and fund the database.
 
 -   **High costs and unclear incentives**: the project’s projected maintenance costs exceeded what many participants—particularly smaller CMOs—were willing or able to sustain.
 
@@ -45,11 +45,11 @@ Post-mortems identified several reasons: - **Governance conflicts**: disagreemen
 
 -   **Lack of trust**: concerns over who would “own” the data and how revenues would be redistributed undermined cooperation.
 
-The failure of the GRD is now widely cited in policy and industry discussions as evidence of the limits of centralised, “single-database” solutions in the music sector. Similar initiatives even failed on national levels.
+The failure of the GRD is now widely cited in policy and industry discussions as evidence of the limits of centralised, “single-database” solutions in the music sector. Similar initiatives have also failed at national level.
 
 We can also add that centralisation, even if it was possible, would pose a new risk of creating monopolistic gatekeepers to the music ecosystem.
 
-The predecessor of the Open Music Europe project, CEEMID, was based on the lessons of the following problems and on the insights of a decentralised, dataspace like approach [@antal_ceereport_2020]. In such *federated, interoperable approaches*—where data remains with its custodians but can be linked through shared identifiers, standards, and protocols—have proven more viable. CISAC’s CIS-Net, Europeana in the heritage field, and emerging European data space initiatives exemplify this more **distributed model of governance**.
+The predecessor of the Open Music Europe project, CEEMID, was built on the lessons of these failures and on the insights of a decentralised, data-space–like approach [@antal_ceereport_2020]. In such *federated, interoperable approaches*—where data remains with its custodians but can be linked through shared identifiers, standards, and protocols—have proven more viable. CISAC’s CIS-Net, Europeana in the heritage field, and emerging European data space initiatives exemplify this more **distributed model of governance**.
 
 CITF’s analysis reinforces these lessons. It identifies governance opacity, unclear mandates, and incompatible identifier regimes as recurring causes of failure in large-scale copyright registries. It stresses that unless registries adopt transparent governance, open identifiers, and shared semantic profiles, centralised projects inevitably collapse under conflicting incentives[^observatory-3].
 :::
@@ -105,7 +105,7 @@ CITF highlights the same structural blind spot. It observes that national librar
 
 Other initiatives show the same bias. The **Polifonia** project created modular ontologies, but it was “blind” to rights management and did not align with ISWC and ISRC identifiers used by industry. As a result, public knowledge graphs and registries do not interoperate smoothly with private-sector identifiers. The result is duplication, costly reconciliation, and under-use of culturally significant catalogues.
 
-EOSC, intended as Europe’s backbone for research data, is also relevant. Its federated model provides long-term preservation and persistent identifiers (via Zenodo and OpenAIRE), and music datasets deposited there already attract visibility. But EOSC has no dedicated workflow for music, and industry uptake remains minimal. As with ECCCH, music is underrepresented and rights-aware curation pathways are absent. CITF confirms that lifecycle-based metadata and provenance are prerequisites for integrating cultural and commercial systems[^observatory-10].
+EOSC, intended as Europe’s backbone for research data infrastructure, is also relevant. Its federated model provides long-term preservation and persistent identifiers (via Zenodo and OpenAIRE), and music datasets deposited there already attract visibility. But EOSC has no dedicated workflow for music, and industry uptake remains minimal. As with ECCCH, music is underrepresented and rights-aware curation pathways are absent. CITF confirms that lifecycle-based metadata and provenance are prerequisites for integrating cultural and commercial systems[^observatory-10].
 
 [^observatory-10]: EOSC provides federated access and persistence through Zenodo and OpenAIRE, but music workflows remain marginal. On EOSC’s role, see the *European Strategy for Data* [@european_data_strategy_2020]. CITF notes that without harmonised identifiers, provenance chains, and semantic profiles, public infrastructures cannot interoperate with private-sector rights workflows, especially in AI contexts where reproduction and transformation rights depend on reliable metadata [@citf_2025, pp20; pp28–33].
 
@@ -115,6 +115,8 @@ This challenge directly motivates the Observatory’s bridging role with EOSC, E
 [^observatory-11]: The EIF defines layered interoperability (legal, organisational, semantic, technical) [@eif_2017]. The *European Strategy for Data* frames subsidiarity as compatible with federation [@european_data_strategy_2020]. BDVA and the Federation Working Group emphasise that interoperability frameworks are needed to operationalise federation [@bdva_discussion_paper_2023; @federation_wg_position_2023].
 
 [^observatory-12]: The EIF defines layered interoperability (legal, organisational, semantic, technical) [@eif_2017]. The *European Strategy for Data* frames subsidiarity as compatible with federation [@european_data_strategy_2020]. BDVA and the Federation Working Group emphasise that interoperability frameworks are needed to operationalise federation [@bdva_discussion_paper_2023; @federation_wg_position_2023].
+
+![The four layers of European interoperability: legal, organisational, semantic and technological in our federated Slovak module.](png/OMO/data_sharing_space_eif_schema.png){fig-align="center"}
 
 ### Subsidiarity and infrastructures for scaling music data
 
@@ -189,8 +191,6 @@ https://downloads.reprex.nl/2025/open-music-observatory/coordination.html#sec-fu
 
 Conformance and observability rules in the Open Music Observatory should be designed in line with the European Interoperability Framework (EIF) and the FAIR data principles. This alignment ensures compatibility with wider European data-space initiatives and reduces integration costs for institutions already adapting to these standards [@emo_feasibility_2020, p9].
 
-[![The \[Open Music Observatory\](https://openmusicobservatory.eu/) sits where open science, public sector information reuse, and music industry workflows overlap. By aligning with the European Interoperability Framework, it creates a shared space where libraries, rights managers, publishers, and researchers can collaborate. This positioning highlights OMO’s role as a bridge between cultural heritage, commercial distribution, and open knowledge. DOI: \[10.6084/m9.figshare.30073267.v1\](https://figshare.com/articles/dataset/The_Open_Music_Observatory_at_the_Intersection_of_Open_Science_Open_Data_and_Music_Industry_Workflows/30073267/1?file=57754399)](png/OMO/OMO_Venn_diagram.png){fig-align="center"}](https://figshare.com/articles/dataset/The_Open_Music_Observatory_at_the_Intersection_of_Open_Science_Open_Data_and_Music_Industry_Workflows/30073267?file=57754399)
-
 ### Workflow playbooks and provenance trails
 
 The Observatory should not only harmonise data formats, but also document workflow playbooks that describe how metadata moves across the music lifecycle:
@@ -216,7 +216,7 @@ Crucially, federation avoids the risks inherent in centralisation: technical fra
 
 [^observatory-18]: This definition paraphrases [@curry_dataspaces_2020] and reflects the view that a data sharing space is an ecosystem of exchange, processing, sharing and provision of data between trusted partners [@dataspace_for_cci_2022, p16]. The CITF further emphasises that trustworthy provenance, machine-readable rights metadata, and auditable rights management information are essential components of such federated copyright infrastructures, particularly in the AI era [@citf_2025, p31; pp101–102].
 
-Music represents one of the most demanding test cases for European data governance. Attribution interacts directly with privacy law, identifiers are applied unevenly across the sector, and most music enterprises lack the resources to maintain their own compliance, documentation, and audit infrastructures. If a federated model can function in this environment, it can function elsewhere. At the same time, decentralisation also creates incentives for data hoarding. Effective governance must therefore make participation more attractive than isolation — through lower administrative costs, legal clarity, shared compliance benefits, and increased visibility.
+Music represents one of the most demanding test cases for European data governance in the cultural sector. Attribution interacts directly with privacy law, identifiers are applied unevenly across the sector, and most music enterprises lack the resources to maintain their own compliance, documentation, and audit infrastructures. If a federated model can function in this environment, it can function elsewhere. At the same time, decentralisation also creates incentives for data hoarding. Effective governance must therefore make participation more attractive than isolation — through lower administrative costs, legal clarity, shared compliance benefits, and increased visibility.
 
 In practice, this requires combining hard alignment (minimal metadata profiles and baseline identifiers) with soft alignment (mappings, crosswalks, and shared workflow playbooks). This combination allows interoperability to be achieved without forcing all actors into a single organisational or technical model, and ensures that music-specific solutions remain interoperable with the *EU Cultural Data Hub* and other cross-domain infrastructures.
 
@@ -226,7 +226,7 @@ The Open Music Observatory is conceived as a music- and music-rights–specialis
 
 Architecturally, the Open Music Observatory inherits CEEMID’s core principles: federation rather than centralisation, reproducible indicators rather than static datasets, and collaboration across public, private, and academic actors. What changes is not the logic, but the scale and governance context. OMO aligns these principles with the European Interoperability Framework, FAIR data principles, the common European data space for cultural heritage, and the work of the *Copyright Infrastructure Task Force*, ensuring coherence across cultural, data, and copyright policy domains.
 
-Earlier experimentation, including the CEEMID initiative and the Open Music Observatory's Slovak cultural statistics pilot within the Open Music Europe project, already anticipated this architecture by demonstrating how music-specific data coordination could feed policy-relevant indicators without centralising data—an approach that aligns closely with the design principles now articulated for the EU Culture Data Hub.
+Earlier experimentation, including the CEEMID initiative and the Open Music Observatory’s Slovak cultural statistics pilot within the Open Music Europe project, already anticipated this architecture by demonstrating how music-specific data coordination could feed policy-relevant indicators without centralising data—an approach that aligns closely with the design principles now articulated for the EU Culture Data Hub.
 
 ::: callout-note
 ## Diversity & Circulation Pillar Implementation
@@ -234,7 +234,7 @@ Earlier experimentation, including the CEEMID initiative and the Open Music Obse
 The Diversity & Circulation Pillar of the Open Music Observatory is implemented and documented in *Music, Heritage, and Policy in the Age of AI*[^observatory-19]. While this Green Paper defines the policy rationale and governance principles for diversity-aware data infrastructures, the diversity pillar's implementation paper provides the concrete data models, workflows, and pilot results used to operationalise these principles.
 :::
 
-[^observatory-19]: *Music, Heritage, and Policy in the Age of AI* [@antal_diversity_pillar_2025], inthe OpenMusE project it is Deliverable D2.3.
+[^observatory-19]: *Music, Heritage, and Policy in the Age of AI* [@antal_diversity_pillar_2025]. (In the OpenMusE project it was Deliverable D2.3.)
 
 A central objective of the Slovak pilot was to demonstrate how music-specific statistical indicators could be produced in line with best statistical practice, where existing cultural and creative satellite accounts fall short, which are themselves rarely implemented in EU member states[^observatory-20].Drawing on established methods for business satellite accounts, the pilot sought to harmonise authoritative collective rights management data with administrative registers, industry datasets, and statistical surveys in order to generate indicators that are not available through Slovakia’s current cultural and creative satellite accounting system. In practice, this involved linking rights management information—often the most complete and economically meaningful source for music activity—with official statistical frameworks, while preserving methodological transparency, reproducibility, and comparability.
 
