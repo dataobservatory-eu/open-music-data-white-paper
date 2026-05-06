@@ -21,13 +21,13 @@ This Green Paper was developed as part of the *Open Music Europe* Horizon Europe
 
 The Open Music Observatory (OMO) is both a research output and an operational prototype. During the project, the consortium implemented:
 
--   a **national music data sharing space** (the Slovak Comprehensive Music Database), available at <https://hudobnadatabaza.sk/en/>
+- a **national music data sharing space** (the Slovak Comprehensive Music Database), available at <https://hudobnadatabaza.sk/en/>
 
--   a **partial national replication** in another Member State (Hungary),
+- a **partial national replication** in another Member State (Hungary),
 
--   a **sub-national and cultural-identity–based module** (the Finno-Ugric Data Sharing Space), available at <https://finnougric.net/en/>, which also shows that like the EU Culture Data Hub, it is not practical to work with music as an isolated domain, and
+- a **sub-national and cultural-identity–based module** (the Finno-Ugric Data Sharing Space), available at <https://finnougric.net/en/>, which also shows that like the EU Culture Data Hub, it is not practical to work with music as an isolated domain, and
 
--   a **pan-European core module** aggregating datasets, indicators, and studies, available at <https://openmusicobservatory.eu/>
+- a **pan-European core module** aggregating datasets, indicators, and studies, available at <https://openmusicobservatory.eu/>
 
 Together, these pilots demonstrate how a federated, decentralised model can function across supranational, national, regional, and community levels without forcing centralisation. They show how research concepts such as interoperability, provenance, FAIR data, and subsidiarity translate into governance agreements, workflows, and technical interfaces.
 
@@ -115,11 +115,11 @@ The **SKCMDb** is anchored in the **Memorandum of Understanding** signed between
 
 This MoU formalises a federated governance model where:
 
--   **Attribution** (names of authors, performers, composers) is preserved as legally mandatory under copyright law.
+- **Attribution** (names of authors, performers, composers) is preserved as legally mandatory under copyright law.
 
--   **Privacy** is safeguarded by layered access: public data (names, works, identifiers) circulate broadly, while sensitive data (e.g., addresses, birth dates) remain restricted.
+- **Privacy** is safeguarded by layered access: public data (names, works, identifiers) circulate broadly, while sensitive data (e.g., addresses, birth dates) remain restricted.
 
--   **Interoperability** is achieved by aligning with VIAF, ISNI, ISWC, ISRC, and Europeana.
+- **Interoperability** is achieved by aligning with VIAF, ISNI, ISWC, ISRC, and Europeana.
 
 As such, the Memorandum provides the *legal and institutional foundation* for SKCMDb, turning a technical pilot into a national dataspace aligned with the EU Data Strategy.
 
@@ -130,9 +130,9 @@ The chart illustrates the biography and works of Slovak composer **Iris Szeghy**
 
 [![A slide taken from: SKCMDb: Interoperability of Music Libraries and Archives with Public and Private Music Services (presentation at the IAML 2025 conference in Salzburg) \<https://zenodo.org/records/16634558\>](png/20250707_D_Antal_IAM_for_charts/Slide3.PNG){fig-align="center"}](https://zenodo.org/records/16634558)
 
--   **Left side:** reconciliation of her works across SOZA, the Slovak National Library, the Bratislava City Library, and archives.
--   **Right side:** linking to listening platforms (Spotify, YouTube, Apple Classical).
--   **Bottom:** reconciliation with the Slovak Statistical Office via the Satellite Business Register.
+- **Left side:** reconciliation of her works across SOZA, the Slovak National Library, the Bratislava City Library, and archives.
+- **Right side:** linking to listening platforms (Spotify, YouTube, Apple Classical).
+- **Bottom:** reconciliation with the Slovak Statistical Office via the Satellite Business Register.
 
 SKCMDb thus acts as a bridge between cultural memory institutions, rights management, digital distribution, and public policy.
 :::
@@ -170,10 +170,10 @@ Our multi-layer model (DDEX, DCTERMS, RiC patterns, and rights metadata) aligns 
 ::: callout-note
 **Infobox: Unlabel and Hilda Griva**
 
--   Metadata repair began with archival records in the Latvian Archives of Folklore.
--   Records were translated, enriched, and reconciled with Wikidata, MusicBrainz, and VIAF.
--   DDEX-compliant catalogue transfer metadata enabled digital distribution.
--   The enriched catalogue allowed Hilda Griva’s recordings to be released and discovered globally.
+- Metadata repair began with archival records in the Latvian Archives of Folklore.
+- Records were translated, enriched, and reconciled with Wikidata, MusicBrainz, and VIAF.
+- DDEX-compliant catalogue transfer metadata enabled digital distribution.
+- The enriched catalogue allowed Hilda Griva’s recordings to be released and discovered globally.
 :::
 
 Unlabel demonstrates how public heritage institutions and private distributors can cooperate through shared standards. It anchors both the **curative AI approaches** in @sec-ai and the **observatory perspective** in @sec-observatory.
@@ -196,10 +196,10 @@ As the CITF report emphasises, AI introduces legal lifecycle pressures: both the
 
 By contrast, in most industries administrative overhead is modest:
 
--   Retail/distribution: \~2–5% of net sales
--   Manufacturing: \~3–7%
--   Professional services: 10–15% (because administration blurs into the product)
--   OECD/EU cross-industry averages: 3–8% of turnover
+- Retail/distribution: \~2–5% of net sales
+- Manufacturing: \~3–7%
+- Professional services: 10–15% (because administration blurs into the product)
+- OECD/EU cross-industry averages: 3–8% of turnover
 
 In “normal” industries, then, €50 of administrative cost is justified on €1000 of revenue. By comparison, in the recorded music industry, achieving that same 5% efficiency requires delivering faultlessly some 200,000 streaming transactions. This is a **very tall order** for a sector dominated by micro-enterprises and small independents without dedicated IT or metadata teams.
 
@@ -252,13 +252,13 @@ This integrated roadmap frames the more detailed analysis and recommendations in
 
 The analysis and examples presented in this Green Paper are informed by a set of closely related analytical, legal, and implementation documents, including:
 
--   *Study on copyright and new technologies: copyright data management and artificial intelligence*
+- *Study on copyright and new technologies: copyright data management and artificial intelligence*
 
--   *Interoperable, trustworthy, and machine-readable copyright data in the AI era* (CITF First Project Report)
+- *Interoperable, trustworthy, and machine-readable copyright data in the AI era* (CITF First Project Report)
 
--   Memorandum of Understanding on the reuse of Open Policy Analysis outputs in Slovak cultural policy
+- Memorandum of Understanding on the reuse of Open Policy Analysis outputs in Slovak cultural policy
 
--   OpenMusE technical deliverables documenting implemented data infrastructures and workflows
+- OpenMusE technical deliverables documenting implemented data infrastructures and workflows
 
 These materials provide additional detail on the legal, technical, and institutional assumptions underlying the policy synthesis offered here.
 
