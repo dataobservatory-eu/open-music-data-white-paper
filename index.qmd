@@ -17,13 +17,13 @@ The study further noted that emerging technologies, including artificial intelli
 ::: callout-note
 #### Why this Green Paper matters for music professionals? {.unnumbered}
 
--   Streaming has centralised power in platforms, while leaving rightsholders with micro-royalties and growing administrative burdens.
+- Streaming has centralised power in platforms, while leaving rightsholders with micro-royalties and growing administrative burdens.
 
--   Metadata mistakes translate directly into lost revenue — each unlinked ISRC or ISWC is money left unclaimed.
+- Metadata mistakes translate directly into lost revenue — each unlinked ISRC or ISWC is money left unclaimed.
 
--   AI is already reshaping music ecosystems: it can either support documentation and remuneration, or flood systems with untracked works.
+- AI is already reshaping music ecosystems: it can either support documentation and remuneration, or flood systems with untracked works.
 
--   Europe needs federated, cooperative solutions so independents, collective management organisations, and heritage institutions can compete on fairer terms.
+- Europe needs federated, cooperative solutions so independents, collective management organisations, and heritage institutions can compete on fairer terms.
 :::
 
 There is rarely a single moment when music metadata can be considered complete. Metadata, like music itself, is open to reinterpretation. A name may later be reconciled with an identifier; a work may be linked to a new performance; a recording may be embedded in new formats or platforms. Each act of documentation adds layers of meaning and makes music intelligible in new environments.
@@ -32,7 +32,7 @@ This is not an invitation to reinvent the wheel. We can still read Beethoven’s
 
 ![In Slovakia, we implemented, using the European Interoperability Framework for shared digital services, public-private service integration to make music more visible and its handling more cost efficient. Our implementation aligns well with the requirements set by the Copright Infrastructure Task Force.](png/20250707_D_Antal_IAM_for_charts/Slide3.PNG){fig-align="center"}
 
-The invention of the computer, and later the internet, introduced new ways to document and transmit music. A recent scholarly analysis building on the Open Music Europe research and innovation framework further elaborates these dynamics, highlighting that rights-related metadata is both the most economically consequential and the most difficult to establish and maintain in fragmented legal and institutional environments. 
+The invention of the computer, and later the internet, introduced new ways to document and transmit music. A recent scholarly analysis building on the Open Music Europe research and innovation framework further elaborates these dynamics, highlighting that rights-related metadata is both the most economically consequential and the most difficult to establish and maintain in fragmented legal and institutional environments.
 
 These innovations brought powerful efficiencies: identifiers such as the ISRC and ISWC, digital distribution pipelines, and networked catalogues enabled the global circulation of music at unprecedented scale. At the same time, they produced new fragmentation. Standards proliferated, identifiers failed to interconnect, and attempts to create comprehensive registries repeatedly failed, reflecting not only technical constraints but deeper institutional fragmentation and misaligned incentives across stakeholders. [@openmuse_bodo_2026]
 
@@ -52,7 +52,7 @@ This document situates the **Open Music Observatory** as a central reference poi
 **Citation note:** When citing this Green Paper, please use the latest **versioned DOI** available on Zenodo, and include the date of access if referring to material hosted on our GitHub repository.[^index-5] This is an early version ({{< meta greenpaper.version >}}.)
 :::
 
-[^index-2]: The *Policy Brief 1: Music Metadata Mainstreaming and EU Law* [@ivir_metadata_policy_2024] provides the primary legal and institutional framing on which this Green Paper builds and which it operationalises through a lifecycle-oriented and implementation-focused approach. The present Green Paper builds on that foundation with a lifecycle- and sovereignty-oriented conceptual framework, tested in pilots such as the Slovak Comprehensive Music Database. Its key recommendations are further condensed in *OpenMusE Policy Brief 2: An Open, Scalable Data-to-Policy Pipeline for European Music Ecosystems* (Deliverable D5.7, 2025) [@openmuse_policy_brief_2_2025], which integrates broader stakeholder consultations (CISAC, IAMIC, IAML, FairMusE, Music360, ECCCH forums, among others) and translates them into policy actions for EU institutions. _The political economy of the open music metadata ecosystem—and the impact of the Spotify hack_ offers a scholarly overview of this work [@openmuse_bodo_2026].
+[^index-2]: The *Policy Brief 1: Music Metadata Mainstreaming and EU Law* [@ivir_metadata_policy_2024] provides the primary legal and institutional framing on which this Green Paper builds and which it operationalises through a lifecycle-oriented and implementation-focused approach. The present Green Paper builds on that foundation with a lifecycle- and sovereignty-oriented conceptual framework, tested in pilots such as the Slovak Comprehensive Music Database. Its key recommendations are further condensed in *OpenMusE Policy Brief 2: An Open, Scalable Data-to-Policy Pipeline for European Music Ecosystems* (Deliverable D5.7, 2025) [@openmuse_policy_brief_2_2025], which integrates broader stakeholder consultations (CISAC, IAMIC, IAML, FairMusE, Music360, ECCCH forums, among others) and translates them into policy actions for EU institutions. *The political economy of the open music metadata ecosystem—and the impact of the Spotify hack* offers a scholarly overview of this work [@openmuse_bodo_2026].
 
 [^index-3]: The *Guidelines for Open Policy Analysis* form an actionable and practical set of directives that the OpenMusE consoritum was mandated to use under the Grant Agreement. It can be seen as good implementation framework for *Evidence-based policy making in the European Commission* and *The practice of reproducible research* [@opa_guidelines; @openmuse_2023; [@evidence_based_policy_eu_2015; @practice_of_reproducible_research_2018].
 
@@ -66,18 +66,18 @@ This document situates the **Open Music Observatory** as a central reference poi
 
 Our document has been presented and discussed with industry specialists on the following forums:
 
--   Big Data Value Association, Gaia-X: Dataweek²⁴: Introducing a new European music dataspace[^index-6]
--   Echoes/ECCH: The ECHOES (European Cloud for Heritage OpEn Science) policy even and workshop, 12-13 December 2024 at the Royal Institute for Cultural Heritage (KIK-IRPA), Brussels,
--   Hungarian stakeholders interested in replication of the Slovak pilot versions in various meetings throughout 2024 and 2025[^index-7].
--   CISAC: Protecting Creators’ Rights in the AI Era: OpenMusE at the European Committee Meeting, Vilnius, 29-30 April [^index-8].
--   The Fair MusE - Prelude to a fairermusic industry Fair MusE project[^index-9]
--   IAMIC [^index-10]: The *International Association of Music Information Centres* and several key members of the organisation.
--   IAML: The *International Association of Music Libraries, Archives and Documentation Centers* and several national chapters and key members [^index-11].
--   Polifonia: In October 2023 Polifonia invited a few stakeholders - Podiumkunst.net, the Open Music Observatory, Uni Firenze, IC Fonseca School, Joséphine Simonnot/PRISM, Maria Luisa Onida/D'Istruzione Superiore Leonardo Da Vinci, Carnegie Hall Archive, Municipality of Bologna - for a work session, which gave us a great opportunity to strengthen the metadata framework of our policy recommendations and infrastructure planning. At this stage, we started to record user stories for the design of system competences of the Open Music Europe software ecosystem and the observatory's semantic architecture[^index-12].
--   Music Futures: the AHRC Creative Industries Cluster project MusicFutures in the United Kingdom.
--   Slovak national stakeholders interested in cultural data.[^index-13]
--   Wikimedia community and developers[^index-14].
--   European music industry stakeholders on *LineCheck 2025* [^index-15]
+- Big Data Value Association, Gaia-X: Dataweek²⁴: Introducing a new European music dataspace[^index-6]
+- Echoes/ECCH: The ECHOES (European Cloud for Heritage OpEn Science) policy even and workshop, 12-13 December 2024 at the Royal Institute for Cultural Heritage (KIK-IRPA), Brussels,
+- Hungarian stakeholders interested in replication of the Slovak pilot versions in various meetings throughout 2024 and 2025[^index-7].
+- CISAC: Protecting Creators’ Rights in the AI Era: OpenMusE at the European Committee Meeting, Vilnius, 29-30 April [^index-8].
+- The Fair MusE - Prelude to a fairermusic industry Fair MusE project[^index-9]
+- IAMIC [^index-10]: The *International Association of Music Information Centres* and several key members of the organisation.
+- IAML: The *International Association of Music Libraries, Archives and Documentation Centers* and several national chapters and key members [^index-11].
+- Polifonia: In October 2023 Polifonia invited a few stakeholders - Podiumkunst.net, the Open Music Observatory, Uni Firenze, IC Fonseca School, Joséphine Simonnot/PRISM, Maria Luisa Onida/D'Istruzione Superiore Leonardo Da Vinci, Carnegie Hall Archive, Municipality of Bologna - for a work session, which gave us a great opportunity to strengthen the metadata framework of our policy recommendations and infrastructure planning. At this stage, we started to record user stories for the design of system competences of the Open Music Europe software ecosystem and the observatory's semantic architecture[^index-12].
+- Music Futures: the AHRC Creative Industries Cluster project MusicFutures in the United Kingdom.
+- Slovak national stakeholders interested in cultural data.[^index-13]
+- Wikimedia community and developers[^index-14].
+- European music industry stakeholders on *LineCheck 2025* [^index-15]
 
 [^index-6]: Jun 5, 2024, Dataweek²⁴, Leuven, Belgium.
 
@@ -107,4 +107,4 @@ This *Green Paper* approaches the same structural challenges from a music sector
 
 Because of this complementarity, the main chapters of this document are deliberately structured to mirror CITF’s layered approach. The @sec-curation reflects the foundational layer (authoritative identifiers and repairable rights metadata); the @sec-observatory corresponds to the semantic and technical layers (federated registries, mappings, and interoperability profiles); and the @sec-ai translates AI-era infrastructure requirements into music-specific governance questions. In this sense, CITF provides the horizontal policy framework, while this Green Paper offers a domain-level reference implementation that can inform broader European copyright infrastructure discussions [^index-16].
 
-[^index-16]: Since November 2025, members of the Open Music Europe team have participated in the expert group of the _Copyright Infrastructure Task Force_ (CITF). The OMO and its federated national modules are intended to serve as a practical music sectoral use case for the scaling of federated copyright data infrastructures within the CITF framework, including its planned activities for 2026–2027.
+[^index-16]: Since November 2025, members of the Open Music Europe team have participated in the expert group of the *Copyright Infrastructure Task Force* (CITF). The OMO and its federated national modules are intended to serve as a practical music sectoral use case for the scaling of federated copyright data infrastructures within the CITF framework, including its planned activities for 2026–2027.
