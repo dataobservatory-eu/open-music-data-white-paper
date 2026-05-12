@@ -101,9 +101,9 @@ csl: csl/chicago-author-date-17th-edition.csl
 format:
   html:
     theme: cosmo
-  docx: 
-    reference-doc: docx/OpenMuse_simple_template_2025.docx
-    papersize: a4 
+# docx: 
+#    reference-doc: docx/OpenMuse_simple_template_2025.docx
+#    papersize: a4 
   pdf:
     documentclass: scrreprt
     classoption:
